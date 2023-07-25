@@ -1,0 +1,6002 @@
+[
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 42363
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 108476
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 90208
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 108080
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 99464
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 70890
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 67585
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 97523
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 112976
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 106524
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 102261
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 62759
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 84007
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 86220
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 95584
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 73357
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 88422
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 99545
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 90386
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 92067
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 108446
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 83323
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 85205
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 72038
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 132823
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 71182
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 100305
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 88566
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 104271
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 112392
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 66359
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 103007
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 80306
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 74523
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 113252
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 96040
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 91674
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 92928
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 84638
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 78986
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 96355
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 87121
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 88724
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 58219
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 119024
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 81503
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 70643
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 74167
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 86886
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 102120
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 90780
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 89474
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 97376
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 89415
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 88037
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 71105
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 62692
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 112466
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 71193
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 76286
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 97328
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 86766
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 82453
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 88814
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 82832
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 83034
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 127085
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 66168
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 59212
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 55189
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 131311
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 52633
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 101154
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 113640
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 50401
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 46263
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 74938
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 103384
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 77584
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 83031
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 111019
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 80192
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 48755
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 59044
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 146615
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 46693
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 88152
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 127156
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 69462
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 119162
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 68466
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 92622
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 51331
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 109419
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 80355
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 77032
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 146190
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 96045
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 82534
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 127769
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 96061
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 111342
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 117554
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 109369
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 92358
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 91978
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 52290
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 47036
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 76517
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 89822
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 90368
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 106194
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 87684
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 62040
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 84132
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 88047
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 65012
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 59251
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 78462
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 97414
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 42722
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 63695
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 110731
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 125572
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 72754
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 53956
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 135013
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 108495
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 87608
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 101173
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 126828
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 102716
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 77793
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 57469
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 83758
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 40187
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 98531
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 104435
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 67617
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 91049
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 98519
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 91713
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 88994
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 119381
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 113180
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 68639
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 103763
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 68295
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 103107
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 64844
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 129132
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 93470
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 97625
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 66529
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 100115
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 86423
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 115165
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 133495
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 86516
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 69855
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 84844
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 108241
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 106478
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 114421
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 79208
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 142105
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 57783
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 46903
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 71858
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 44325
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 100183
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 61000
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 109623
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 60070
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 72542
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 110049
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 80981
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 83499
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 106788
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 108922
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 127062
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 120593
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 90685
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 49830
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 106896
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 129425
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 82338
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 86036
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 93073
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 87352
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 139760
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 100070
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 102815
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 101262
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 58054
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 129609
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 100091
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 103479
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 72827
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 74073
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 64852
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 106887
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 77309
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 100416
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 88482
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 78623
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 80135
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 106158
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 89411
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 57398
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 95687
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 120294
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 107140
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 76773
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 98010
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 91099
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 89559
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 120156
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 102966
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 128970
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 121376
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 112941
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 102736
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 64008
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 90024
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 129406
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 54245
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 67530
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 75506
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 81826
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 65711
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 61164
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 73801
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 157410
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 50601
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 65907
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 80937
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 90330
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 93268
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 109345
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 66084
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 98900
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 78113
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 130826
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 85928
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 98515
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 103133
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 69254
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 114680
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 92687
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 72301
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 67749
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 97000
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 104526
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 80494
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 40341
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 74316
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 102247
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 104657
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 92722
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 72120
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 62260
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 123422
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 62097
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 102910
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 84021
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 37026
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 56318
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 64958
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 55954
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 108820
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 100014
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 88213
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 108288
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 100859
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 114007
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 83025
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 95964
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 94973
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 102108
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 60736
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 82126
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 69878
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 37780
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 132873
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 65164
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 121210
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 95169
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 94492
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 75901
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 100463
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 92276
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 92458
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 88571
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 87409
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 133927
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 90482
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 87435
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 130251
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 106560
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 107366
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 56172
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 58807
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 126626
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 104202
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 77793
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 84930
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 69367
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 116751
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 139841
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 78750
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 93306
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 60892
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 99543
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 56745
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 59458
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 71824
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 111903
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 104361
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 91568
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 155834
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 83620
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 81995
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 66125
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 89678
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 98321
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 109346
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 155203
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 98100
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 73306
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 68797
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 120154
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 76865
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 125770
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 119931
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 71794
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 87998
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 140445
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 85306
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 77275
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 143887
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 130720
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 86675
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 56954
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 133472
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 62753
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 128173
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 112491
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 36548
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 88781
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 157852
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 113730
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 68403
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 176789
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 129226
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 59399
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 102473
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 160614
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 89570
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 73989
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 67762
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 90307
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 77751
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 87150
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 79291
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 79144
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 150467
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 57070
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 102201
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 70088
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 57782
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 117629
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 118653
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 71772
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 134758
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 66438
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 87134
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 79674
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 85161
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 114479
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 65547
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 71946
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 96777
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 62054
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 61527
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 64624
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 118629
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 80171
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 105410
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 112134
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 90005
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 70374
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 121682
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 104355
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 75811
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 113544
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 107025
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 78564
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 91905
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 121728
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 54817
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 37898
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 79544
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 40056
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 70846
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 79707
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 124817
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 123114
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 62377
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 82850
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 75932
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 121949
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 82755
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 122037
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 78021
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 56309
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 90002
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 91066
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 118088
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 92099
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 116758
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 96500
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 138851
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 49632
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 76700
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 131275
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 89648
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 100516
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 112854
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 155676
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 135781
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 84935
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 66407
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 101249
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 143189
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 105800
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 124871
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 83894
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 144146
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 69268
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 85948
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 92289
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 75397
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 102597
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 127561
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 72945
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 145632
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 77223
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 130093
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 53220
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 92080
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 118762
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 85398
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 75227
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 104314
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 83262
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 123172
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 67040
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 77655
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 107476
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 89811
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 106893
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 154039
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 116774
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 98281
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 34208
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 121821
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 113122
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 92154
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 110643
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 82345
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 103908
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 49303
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 98456
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 94927
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 76654
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 107859
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 129885
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 85702
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 97797
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 115567
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 91566
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 131608
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 118888
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 75833
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 65750
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 123371
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 76806
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 83774
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 114733
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 69320
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 110746
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 105632
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 117648
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 89170
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 85986
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 78132
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 135073
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 78751
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 118231
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 86651
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 75518
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 114693
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 116875
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 64468
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 116834
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 75294
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 127608
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 116069
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 86122
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 81988
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 68300
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 148178
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 94590
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 87418
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 68384
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 106056
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 110886
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 104082
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 94354
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 128669
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 88725
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 149771
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 98535
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 90713
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 88749
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 126100
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 110594
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 157644
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 113009
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 105601
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 100769
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 82244
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 72030
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 66203
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 67210
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 115383
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 120697
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 70311
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 125770
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 100465
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 83264
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 126375
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 43076
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 97846
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 76522
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 111726
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 112188
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 98959
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 87131
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 77881
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 65225
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 78472
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 126269
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 106233
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 56656
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 70157
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 98366
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 127013
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 106146
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 90736
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 66611
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 150914
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 70559
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 73798
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 69734
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 94763
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 101534
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 91504
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 90426
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 100183
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 99369
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 55845
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 48570
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 98165
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 113274
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 95754
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 57915
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 121506
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 121151
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 86241
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 87682
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 114029
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 67323
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 68049
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 93335
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 100433
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 123242
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 87585
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 45747
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 36972
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 64754
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 132267
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 111043
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 58130
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 90542
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 124891
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 112507
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 100316
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 134757
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 125339
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 111120
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 76523
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 91160
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 105795
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 66935
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 75238
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 138365
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 103978
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 165229
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 118322
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 106883
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 59006
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 125164
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 89225
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 101716
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 74305
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 38451
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 113465
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 66377
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 79142
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 55569
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 97240
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 119033
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 106315
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 81301
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 79462
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 105598
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 72497
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 78084
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 84803
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 41603
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 78002
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 79274
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 49622
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 129620
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 87848
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 51906
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 81866
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 71590
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 63928
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 83333
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 92797
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 93067
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 72422
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 120159
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 91711
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 93805
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 109931
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 88365
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 104744
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 79334
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 95795
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 98512
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 78910
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 103156
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 92760
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 125574
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 93742
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 124470
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 132323
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 70595
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 71278
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 53855
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 98423
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 126239
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 101133
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 92516
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 93320
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 106963
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 111770
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 106584
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 57672
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 90612
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 97768
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 82790
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 76103
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 84628
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 93441
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 110636
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 108366
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 135106
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 85453
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 100160
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 79765
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 157169
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 129683
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 76908
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 93696
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 88230
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 83095
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 81325
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 102106
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 80635
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 73404
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 83674
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 118314
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 133741
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 119522
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 84592
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 121589
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 104329
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 71371
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 96582
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 108778
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 128520
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 102745
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 146008
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 68364
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 62753
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 96584
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 128680
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 152710
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 109136
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 102265
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 81249
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 101791
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 77584
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 88175
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 65816
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 84878
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 73685
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 55560
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 94745
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 106452
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 95505
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 103181
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 120096
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 87575
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 98499
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 113140
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 152081
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 100505
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 104589
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 134450
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 61081
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 100819
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 157277
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 79237
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 68175
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 108475
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 122624
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 99942
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 108296
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 101273
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 59334
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 152625
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 126370
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 122142
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 75919
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 90526
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 103416
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 133910
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 104468
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 117202
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 139141
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 134109
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 66887
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 77839
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 61018
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 124847
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 50758
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 75316
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 118093
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 106503
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 111502
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 116642
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 84683
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 113283
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 86538
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 77742
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 67913
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 114171
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 155826
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 106204
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 111041
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 138184
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 95795
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 106798
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 98575
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 82343
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 117131
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 78625
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 99134
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 38613
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 62866
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 107818
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 108731
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 114621
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 47739
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 104290
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 111403
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 93802
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 138163
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 115613
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 64920
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 79177
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 64994
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 100941
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 163208
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 51837
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 114048
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 136215
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 63327
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 139068
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 136209
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 121910
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 82057
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 96023
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 52578
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 114436
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 99543
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 60983
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 82277
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 55885
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 73142
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 107065
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 107064
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 107370
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 39741
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 120579
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 103242
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 120112
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 83308
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 36585
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 115344
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 49553
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 96982
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 80030
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 110157
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 84047
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 93054
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 84764
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 120277
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 81661
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 149893
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 81515
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 95898
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 90000
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 111896
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 130082
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 130417
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 38855
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 81057
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 117215
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 96232
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 141186
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 114943
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 107640
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 80259
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 86563
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 61589
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 74829
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 72248
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 91342
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 101140
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 62600
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 65313
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 123153
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 57500
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 115604
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 55555
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 124166
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 101050
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 125828
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 75017
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 100415
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 145095
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 115641
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 160460
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 85947
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 119058
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 106722
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 91129
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 135512
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 92891
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 124151
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 141005
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 115742
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 93358
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 131411
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 96900
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 98995
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 109645
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 61609
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 88820
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 122352
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 112489
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 86650
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 101284
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 119794
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 96609
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 53839
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 84725
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 64807
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 41151
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 114031
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 59493
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 119893
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 131980
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 94154
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 114906
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Management",
+   "BasePay": 115981
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 78836
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 112719
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 93018
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 69928
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 104623
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 103328
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 68643
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 63914
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 67296
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 90474
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 60026
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 108587
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 139042
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 116803
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 101423
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 86375
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 49449
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 95995
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Management",
+   "BasePay": 118282
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 99472
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 135638
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 85648
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 121457
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 114141
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 179726
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 107572
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 142505
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 108719
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 109832
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 127250
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 106279
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 81547
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 95798
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 106916
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 124782
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 126256
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 92257
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 124660
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 59377
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 76726
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 112502
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 128730
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 136836
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 89272
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 101515
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 93855
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 36642
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 112604
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Engineering",
+   "BasePay": 67089
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 97789
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 123333
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Management",
+   "BasePay": 105771
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 54945
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 121239
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 87314
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Operations",
+   "BasePay": 124530
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 67150
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 99643
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 92468
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 63300
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 91447
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 60271
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 45915
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 66028
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 113031
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Sales",
+   "BasePay": 132815
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 110078
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 106918
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 106045
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 107479
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 109606
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Engineering",
+   "BasePay": 91300
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 88195
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Operations",
+   "BasePay": 90999
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Operations",
+   "BasePay": 86795
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 110627
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 97696
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 92950
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 82164
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Management",
+   "BasePay": 119069
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Engineering",
+   "BasePay": 62738
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 112169
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 120574
+ },
+ {
+   "Gender": "Male",
+   "Education": "College",
+   "Dept": "Sales",
+   "BasePay": 97311
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 98796
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 102593
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 96665
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Engineering",
+   "BasePay": 91030
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 106945
+ },
+ {
+   "Gender": "Female",
+   "Education": "College",
+   "Dept": "Administration",
+   "BasePay": 81545
+ },
+ {
+   "Gender": "Female",
+   "Education": "Masters",
+   "Dept": "Administration",
+   "BasePay": 80789
+ },
+ {
+   "Gender": "Female",
+   "Education": "PhD",
+   "Dept": "Administration",
+   "BasePay": 85253
+ },
+ {
+   "Gender": "Female",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 62644
+ },
+ {
+   "Gender": "Male",
+   "Education": "Masters",
+   "Dept": "Sales",
+   "BasePay": 108977
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Operations",
+   "BasePay": 92347
+ },
+ {
+   "Gender": "Male",
+   "Education": "High School",
+   "Dept": "Administration",
+   "BasePay": 97376
+ },
+ {
+   "Gender": "Male",
+   "Education": "PhD",
+   "Dept": "Sales",
+   "BasePay": 123108
+ }
+]

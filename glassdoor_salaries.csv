@@ -1,0 +1,1001 @@
+Gender;Education;Dept;BasePay
+Female;College;Operations;42363
+Male;College;Management;108476
+Female;PhD;Administration;90208
+Male;Masters;Sales;108080
+Male;Masters;Engineering;99464
+Female;PhD;Operations;70890
+Female;College;Sales;67585
+Male;PhD;Engineering;97523
+Female;High School;Engineering;112976
+Female;College;Engineering;106524
+Male;PhD;Engineering;102261
+Female;College;Management;62759
+Female;College;Sales;84007
+Female;Masters;Administration;86220
+Female;PhD;Operations;95584
+Female;PhD;Management;73357
+Female;PhD;Administration;88422
+Female;College;Administration;99545
+Male;High School;Engineering;90386
+Female;College;Engineering;92067
+Male;PhD;Engineering;108446
+Male;PhD;Sales;83323
+Male;PhD;Sales;85205
+Female;College;Management;72038
+Male;PhD;Engineering;132823
+Female;College;Engineering;71182
+Male;Masters;Administration;100305
+Male;PhD;Management;88566
+Male;PhD;Engineering;104271
+Female;College;Administration;112392
+Male;Masters;Management;66359
+Male;Masters;Management;103007
+Female;PhD;Operations;80306
+Female;High School;Engineering;74523
+Female;PhD;Management;113252
+Male;PhD;Management;96040
+Male;High School;Management;91674
+Male;High School;Operations;92928
+Female;College;Management;84638
+Male;College;Administration;78986
+Male;PhD;Administration;96355
+Male;PhD;Management;87121
+Male;PhD;Sales;88724
+Male;Masters;Engineering;58219
+Male;Masters;Sales;119024
+Male;Masters;Management;81503
+Female;PhD;Operations;70643
+Female;PhD;Sales;74167
+Male;College;Management;86886
+Female;High School;Sales;102120
+Male;Masters;Operations;90780
+Male;Masters;Operations;89474
+Female;PhD;Engineering;97376
+Female;Masters;Sales;89415
+Female;Masters;Operations;88037
+Female;College;Administration;71105
+Female;High School;Engineering;62692
+Male;PhD;Management;112466
+Female;College;Operations;71193
+Female;Masters;Administration;76286
+Male;PhD;Engineering;97328
+Male;Masters;Management;86766
+Female;College;Operations;82453
+Male;PhD;Administration;88814
+Male;College;Management;82832
+Female;High School;Engineering;83034
+Female;College;Engineering;127085
+Male;High School;Administration;66168
+Male;PhD;Administration;59212
+Male;High School;Operations;55189
+Male;College;Engineering;131311
+Female;College;Management;52633
+Female;PhD;Operations;101154
+Female;College;Engineering;113640
+Male;High School;Management;50401
+Female;PhD;Administration;46263
+Female;College;Management;74938
+Female;College;Sales;103384
+Female;College;Engineering;77584
+Male;Masters;Management;83031
+Male;Masters;Engineering;111019
+Female;Masters;Engineering;80192
+Male;PhD;Management;48755
+Male;High School;Engineering;59044
+Male;PhD;Engineering;146615
+Female;PhD;Engineering;46693
+Female;PhD;Operations;88152
+Female;Masters;Administration;127156
+Male;PhD;Engineering;69462
+Male;PhD;Sales;119162
+Male;PhD;Operations;68466
+Female;Masters;Administration;92622
+Female;Masters;Engineering;51331
+Male;High School;Sales;109419
+Male;College;Operations;80355
+Female;Masters;Sales;77032
+Female;High School;Sales;146190
+Female;Masters;Administration;96045
+Male;High School;Management;82534
+Male;College;Management;127769
+Female;High School;Sales;96061
+Female;College;Management;111342
+Female;PhD;Management;117554
+Female;High School;Engineering;109369
+Female;Masters;Operations;92358
+Female;Masters;Operations;91978
+Male;PhD;Administration;52290
+Male;High School;Engineering;47036
+Male;PhD;Sales;76517
+Female;Masters;Administration;89822
+Male;PhD;Engineering;90368
+Male;College;Engineering;106194
+Female;High School;Management;87684
+Female;Masters;Administration;62040
+Female;Masters;Engineering;84132
+Female;Masters;Administration;88047
+Female;Masters;Administration;65012
+Female;Masters;Engineering;59251
+Female;PhD;Operations;78462
+Male;College;Management;97414
+Female;Masters;Administration;42722
+Female;College;Management;63695
+Male;PhD;Operations;110731
+Male;PhD;Administration;125572
+Male;Masters;Operations;72754
+Female;College;Administration;53956
+Male;High School;Engineering;135013
+Female;College;Management;108495
+Female;High School;Administration;87608
+Male;College;Administration;101173
+Male;PhD;Management;126828
+Male;High School;Engineering;102716
+Male;High School;Engineering;77793
+Female;High School;Sales;57469
+Male;Masters;Management;83758
+Male;PhD;Administration;40187
+Male;Masters;Engineering;98531
+Male;College;Operations;104435
+Male;High School;Administration;67617
+Female;High School;Administration;91049
+Female;PhD;Operations;98519
+Female;High School;Operations;91713
+Female;Masters;Engineering;88994
+Male;Masters;Administration;119381
+Female;High School;Sales;113180
+Male;PhD;Management;68639
+Female;PhD;Engineering;103763
+Male;College;Management;68295
+Male;High School;Engineering;103107
+Female;College;Sales;64844
+Female;PhD;Sales;129132
+Female;High School;Engineering;93470
+Male;Masters;Administration;97625
+Female;College;Administration;66529
+Female;Masters;Management;100115
+Female;PhD;Administration;86423
+Male;Masters;Sales;115165
+Female;Masters;Engineering;133495
+Male;Masters;Operations;86516
+Male;Masters;Administration;69855
+Female;PhD;Sales;84844
+Female;College;Operations;108241
+Female;High School;Sales;106478
+Male;College;Management;114421
+Male;Masters;Management;79208
+Male;Masters;Administration;142105
+Male;High School;Administration;57783
+Female;High School;Operations;46903
+Male;Masters;Operations;71858
+Female;High School;Management;44325
+Male;High School;Engineering;100183
+Male;Masters;Sales;61000
+Male;Masters;Engineering;109623
+Female;PhD;Sales;60070
+Female;Masters;Management;72542
+Male;PhD;Administration;110049
+Female;Masters;Engineering;80981
+Female;College;Operations;83499
+Female;Masters;Management;106788
+Female;Masters;Engineering;108922
+Female;PhD;Administration;127062
+Male;College;Sales;120593
+Male;PhD;Administration;90685
+Female;High School;Engineering;49830
+Male;High School;Sales;106896
+Male;PhD;Sales;129425
+Female;Masters;Operations;82338
+Female;PhD;Administration;86036
+Male;High School;Operations;93073
+Male;PhD;Administration;87352
+Male;PhD;Administration;139760
+Female;High School;Engineering;100070
+Male;Masters;Sales;102815
+Male;PhD;Management;101262
+Male;High School;Operations;58054
+Female;Masters;Operations;129609
+Male;Masters;Administration;100091
+Male;Masters;Sales;103479
+Female;College;Operations;72827
+Male;PhD;Engineering;74073
+Male;College;Administration;64852
+Male;College;Management;106887
+Male;College;Administration;77309
+Female;High School;Administration;100416
+Male;Masters;Engineering;88482
+Female;College;Management;78623
+Male;High School;Management;80135
+Female;High School;Sales;106158
+Female;College;Engineering;89411
+Male;Masters;Sales;57398
+Female;PhD;Sales;95687
+Female;PhD;Operations;120294
+Male;College;Sales;107140
+Female;College;Operations;76773
+Female;Masters;Engineering;98010
+Female;PhD;Management;91099
+Male;High School;Management;89559
+Male;High School;Management;120156
+Male;PhD;Engineering;102966
+Female;PhD;Sales;128970
+Female;High School;Management;121376
+Male;Masters;Administration;112941
+Male;High School;Engineering;102736
+Female;High School;Management;64008
+Male;Masters;Engineering;90024
+Female;Masters;Management;129406
+Female;College;Operations;54245
+Female;High School;Administration;67530
+Male;High School;Sales;75506
+Female;College;Engineering;81826
+Female;High School;Operations;65711
+Male;Masters;Management;61164
+Female;Masters;Administration;73801
+Male;College;Administration;157410
+Male;High School;Operations;50601
+Male;High School;Engineering;65907
+Male;High School;Sales;80937
+Male;College;Administration;90330
+Female;College;Operations;93268
+Male;College;Administration;109345
+Male;Masters;Engineering;66084
+Male;PhD;Operations;98900
+Male;College;Engineering;78113
+Male;Masters;Engineering;130826
+Male;High School;Engineering;85928
+Male;College;Operations;98515
+Female;College;Administration;103133
+Female;College;Sales;69254
+Male;College;Sales;114680
+Male;PhD;Engineering;92687
+Male;Masters;Engineering;72301
+Male;Masters;Administration;67749
+Female;Masters;Management;97000
+Male;High School;Operations;104526
+Male;High School;Management;80494
+Female;High School;Operations;40341
+Male;High School;Engineering;74316
+Female;PhD;Sales;102247
+Male;College;Sales;104657
+Female;High School;Engineering;92722
+Female;Masters;Management;72120
+Female;Masters;Operations;62260
+Male;High School;Engineering;123422
+Male;College;Sales;62097
+Male;High School;Management;102910
+Female;High School;Engineering;84021
+Female;High School;Operations;37026
+Male;PhD;Operations;56318
+Male;High School;Operations;64958
+Female;High School;Operations;55954
+Female;PhD;Sales;108820
+Female;High School;Operations;100014
+Male;PhD;Operations;88213
+Female;High School;Sales;108288
+Male;Masters;Sales;100859
+Female;Masters;Administration;114007
+Male;High School;Management;83025
+Male;High School;Administration;95964
+Female;College;Administration;94973
+Male;High School;Sales;102108
+Male;Masters;Sales;60736
+Male;PhD;Operations;82126
+Male;Masters;Operations;69878
+Female;Masters;Sales;37780
+Male;Masters;Management;132873
+Male;High School;Operations;65164
+Female;Masters;Administration;121210
+Female;PhD;Engineering;95169
+Male;PhD;Management;94492
+Female;PhD;Operations;75901
+Male;Masters;Operations;100463
+Female;Masters;Operations;92276
+Female;College;Engineering;92458
+Male;High School;Administration;88571
+Male;PhD;Management;87409
+Male;College;Sales;133927
+Male;Masters;Sales;90482
+Female;High School;Sales;87435
+Female;High School;Operations;130251
+Female;Masters;Management;106560
+Male;College;Operations;107366
+Female;High School;Sales;56172
+Female;Masters;Sales;58807
+Female;Masters;Sales;126626
+Female;PhD;Sales;104202
+Male;PhD;Operations;77793
+Male;High School;Operations;84930
+Male;Masters;Engineering;69367
+Male;Masters;Operations;116751
+Male;Masters;Administration;139841
+Female;College;Administration;78750
+Female;College;Administration;93306
+Male;Masters;Operations;60892
+Male;Masters;Engineering;99543
+Female;PhD;Operations;56745
+Female;College;Operations;59458
+Female;Masters;Sales;71824
+Male;High School;Operations;111903
+Male;College;Sales;104361
+Female;High School;Sales;91568
+Male;Masters;Engineering;155834
+Male;Masters;Sales;83620
+Female;PhD;Administration;81995
+Female;PhD;Sales;66125
+Male;College;Engineering;89678
+Female;Masters;Operations;98321
+Male;College;Management;109346
+Female;Masters;Sales;155203
+Male;PhD;Management;98100
+Female;High School;Management;73306
+Male;College;Engineering;68797
+Male;College;Management;120154
+Female;College;Sales;76865
+Female;PhD;Management;125770
+Female;High School;Administration;119931
+Female;Masters;Operations;71794
+Female;College;Management;87998
+Male;High School;Administration;140445
+Male;College;Administration;85306
+Female;High School;Operations;77275
+Male;PhD;Sales;143887
+Female;High School;Sales;130720
+Female;PhD;Sales;86675
+Female;College;Operations;56954
+Male;Masters;Operations;133472
+Male;Masters;Administration;62753
+Male;PhD;Operations;128173
+Female;College;Engineering;112491
+Female;PhD;Operations;36548
+Female;PhD;Engineering;88781
+Male;High School;Management;157852
+Male;PhD;Operations;113730
+Male;College;Management;68403
+Male;PhD;Sales;176789
+Female;Masters;Sales;129226
+Male;College;Engineering;59399
+Male;PhD;Management;102473
+Female;PhD;Management;160614
+Female;PhD;Sales;89570
+Female;College;Sales;73989
+Female;Masters;Management;67762
+Male;College;Administration;90307
+Female;Masters;Management;77751
+Female;High School;Management;87150
+Female;College;Sales;79291
+Male;Masters;Engineering;79144
+Male;PhD;Engineering;150467
+Female;Masters;Engineering;57070
+Female;College;Sales;102201
+Male;College;Engineering;70088
+Female;PhD;Operations;57782
+Male;High School;Operations;117629
+Male;Masters;Administration;118653
+Female;High School;Management;71772
+Male;Masters;Sales;134758
+Female;College;Administration;66438
+Male;High School;Operations;87134
+Female;College;Operations;79674
+Female;College;Engineering;85161
+Female;PhD;Management;114479
+Male;College;Operations;65547
+Female;High School;Administration;71946
+Male;High School;Operations;96777
+Female;PhD;Administration;62054
+Male;High School;Sales;61527
+Female;High School;Management;64624
+Male;Masters;Administration;118629
+Male;PhD;Management;80171
+Female;College;Administration;105410
+Male;PhD;Management;112134
+Female;Masters;Engineering;90005
+Female;High School;Operations;70374
+Male;College;Administration;121682
+Female;PhD;Operations;104355
+Female;College;Engineering;75811
+Male;Masters;Engineering;113544
+Female;Masters;Operations;107025
+Male;PhD;Operations;78564
+Male;College;Operations;91905
+Male;High School;Engineering;121728
+Male;College;Management;54817
+Male;College;Operations;37898
+Male;PhD;Operations;79544
+Female;High School;Engineering;40056
+Female;College;Operations;70846
+Female;High School;Sales;79707
+Male;High School;Operations;124817
+Male;College;Management;123114
+Female;High School;Operations;62377
+Male;Masters;Sales;82850
+Female;High School;Sales;75932
+Male;PhD;Management;121949
+Female;PhD;Sales;82755
+Male;PhD;Administration;122037
+Female;Masters;Administration;78021
+Male;PhD;Sales;56309
+Male;PhD;Management;90002
+Male;College;Sales;91066
+Male;Masters;Management;118088
+Male;Masters;Operations;92099
+Female;College;Administration;116758
+Female;High School;Sales;96500
+Male;College;Management;138851
+Female;College;Administration;49632
+Female;PhD;Management;76700
+Male;College;Management;131275
+Male;PhD;Operations;89648
+Female;Masters;Administration;100516
+Male;PhD;Operations;112854
+Male;Masters;Sales;155676
+Male;College;Sales;135781
+Female;College;Engineering;84935
+Male;High School;Engineering;66407
+Female;PhD;Sales;101249
+Male;Masters;Administration;143189
+Male;PhD;Engineering;105800
+Male;College;Operations;124871
+Male;High School;Sales;83894
+Female;High School;Management;144146
+Female;PhD;Sales;69268
+Male;High School;Sales;85948
+Male;PhD;Engineering;92289
+Male;High School;Operations;75397
+Male;High School;Engineering;102597
+Female;PhD;Engineering;127561
+Male;High School;Sales;72945
+Male;PhD;Management;145632
+Female;Masters;Sales;77223
+Male;Masters;Operations;130093
+Male;PhD;Administration;53220
+Female;College;Engineering;92080
+Female;College;Sales;118762
+Female;College;Operations;85398
+Male;College;Operations;75227
+Male;Masters;Administration;104314
+Male;High School;Operations;83262
+Female;Masters;Administration;123172
+Male;PhD;Administration;67040
+Male;College;Administration;77655
+Female;College;Administration;107476
+Male;Masters;Operations;89811
+Male;College;Administration;106893
+Male;Masters;Engineering;154039
+Male;High School;Operations;116774
+Male;High School;Management;98281
+Female;High School;Engineering;34208
+Male;Masters;Engineering;121821
+Male;Masters;Engineering;113122
+Male;PhD;Management;92154
+Male;PhD;Engineering;110643
+Female;PhD;Administration;82345
+Male;PhD;Sales;103908
+Female;High School;Engineering;49303
+Female;High School;Operations;98456
+Male;PhD;Operations;94927
+Male;College;Administration;76654
+Male;Masters;Sales;107859
+Female;High School;Operations;129885
+Male;Masters;Sales;85702
+Female;Masters;Operations;97797
+Male;Masters;Management;115567
+Female;High School;Administration;91566
+Female;PhD;Management;131608
+Male;PhD;Administration;118888
+Male;College;Sales;75833
+Female;College;Engineering;65750
+Male;College;Management;123371
+Female;Masters;Sales;76806
+Male;College;Management;83774
+Female;PhD;Operations;114733
+Male;PhD;Administration;69320
+Male;PhD;Operations;110746
+Male;Masters;Engineering;105632
+Male;PhD;Engineering;117648
+Female;PhD;Management;89170
+Male;College;Management;85986
+Male;Masters;Sales;78132
+Male;Masters;Operations;135073
+Female;High School;Operations;78751
+Male;High School;Sales;118231
+Male;High School;Operations;86651
+Female;PhD;Management;75518
+Male;Masters;Management;114693
+Male;Masters;Engineering;116875
+Male;PhD;Administration;64468
+Male;PhD;Sales;116834
+Female;Masters;Management;75294
+Female;College;Management;127608
+Female;College;Sales;116069
+Female;High School;Engineering;86122
+Male;College;Management;81988
+Female;Masters;Sales;68300
+Male;College;Sales;148178
+Female;PhD;Operations;94590
+Female;College;Engineering;87418
+Male;College;Administration;68384
+Male;PhD;Operations;106056
+Male;Masters;Management;110886
+Female;Masters;Management;104082
+Female;Masters;Management;94354
+Male;PhD;Engineering;128669
+Male;PhD;Sales;88725
+Male;Masters;Engineering;149771
+Male;Masters;Management;98535
+Female;PhD;Sales;90713
+Male;College;Management;88749
+Male;Masters;Operations;126100
+Male;College;Sales;110594
+Male;College;Management;157644
+Female;PhD;Management;113009
+Male;PhD;Engineering;105601
+Male;High School;Engineering;100769
+Male;High School;Administration;82244
+Female;High School;Administration;72030
+Female;College;Management;66203
+Female;High School;Management;67210
+Female;PhD;Management;115383
+Female;PhD;Engineering;120697
+Male;PhD;Operations;70311
+Female;College;Engineering;125770
+Male;College;Engineering;100465
+Male;College;Administration;83264
+Male;PhD;Engineering;126375
+Male;College;Engineering;43076
+Female;College;Sales;97846
+Female;Masters;Management;76522
+Male;PhD;Operations;111726
+Male;College;Administration;112188
+Male;College;Operations;98959
+Female;College;Management;87131
+Male;College;Administration;77881
+Male;Masters;Engineering;65225
+Male;Masters;Operations;78472
+Male;College;Operations;126269
+Male;High School;Management;106233
+Female;High School;Sales;56656
+Female;High School;Engineering;70157
+Female;PhD;Engineering;98366
+Male;College;Engineering;127013
+Male;High School;Management;106146
+Male;Masters;Operations;90736
+Male;PhD;Sales;66611
+Male;PhD;Operations;150914
+Male;Masters;Management;70559
+Female;College;Sales;73798
+Male;High School;Sales;69734
+Female;High School;Sales;94763
+Female;College;Administration;101534
+Male;PhD;Management;91504
+Female;College;Management;90426
+Male;Masters;Operations;100183
+Female;College;Operations;99369
+Female;College;Operations;55845
+Female;College;Administration;48570
+Male;Masters;Engineering;98165
+Female;Masters;Operations;113274
+Male;Masters;Engineering;95754
+Male;College;Engineering;57915
+Male;College;Sales;121506
+Male;Masters;Management;121151
+Female;College;Management;86241
+Male;Masters;Management;87682
+Male;College;Administration;114029
+Male;College;Management;67323
+Male;High School;Management;68049
+Male;High School;Engineering;93335
+Female;PhD;Operations;100433
+Female;PhD;Operations;123242
+Female;PhD;Administration;87585
+Female;Masters;Sales;45747
+Female;High School;Administration;36972
+Female;High School;Management;64754
+Female;PhD;Operations;132267
+Male;PhD;Administration;111043
+Male;Masters;Engineering;58130
+Male;PhD;Operations;90542
+Male;College;Administration;124891
+Female;PhD;Engineering;112507
+Female;College;Sales;100316
+Male;PhD;Engineering;134757
+Male;College;Sales;125339
+Female;College;Management;111120
+Female;High School;Operations;76523
+Female;College;Operations;91160
+Male;College;Sales;105795
+Female;High School;Operations;66935
+Male;PhD;Management;75238
+Female;Masters;Sales;138365
+Male;College;Management;103978
+Male;Masters;Sales;165229
+Male;Masters;Engineering;118322
+Male;Masters;Operations;106883
+Female;High School;Management;59006
+Male;PhD;Engineering;125164
+Male;High School;Operations;89225
+Male;High School;Sales;101716
+Female;Masters;Sales;74305
+Female;Masters;Administration;38451
+Female;High School;Operations;113465
+Female;College;Operations;66377
+Male;PhD;Engineering;79142
+Female;Masters;Operations;55569
+Male;Masters;Engineering;97240
+Female;Masters;Management;119033
+Female;Masters;Administration;106315
+Male;College;Engineering;81301
+Male;PhD;Management;79462
+Female;PhD;Sales;105598
+Male;College;Operations;72497
+Female;High School;Management;78084
+Male;Masters;Management;84803
+Female;College;Administration;41603
+Female;Masters;Operations;78002
+Male;Masters;Administration;79274
+Male;PhD;Management;49622
+Male;College;Management;129620
+Male;High School;Administration;87848
+Male;College;Management;51906
+Female;High School;Engineering;81866
+Male;PhD;Engineering;71590
+Male;High School;Sales;63928
+Male;High School;Administration;83333
+Male;High School;Administration;92797
+Male;PhD;Operations;93067
+Male;High School;Sales;72422
+Male;College;Operations;120159
+Female;Masters;Operations;91711
+Female;Masters;Sales;93805
+Female;Masters;Operations;109931
+Female;College;Administration;88365
+Male;Masters;Operations;104744
+Female;High School;Administration;79334
+Male;Masters;Administration;95795
+Female;PhD;Engineering;98512
+Female;High School;Operations;78910
+Male;College;Management;103156
+Male;High School;Administration;92760
+Female;PhD;Operations;125574
+Male;College;Operations;93742
+Male;Masters;Engineering;124470
+Male;Masters;Engineering;132323
+Male;High School;Sales;70595
+Male;College;Operations;71278
+Male;High School;Engineering;53855
+Male;College;Management;98423
+Male;Masters;Operations;126239
+Male;Masters;Management;101133
+Male;High School;Administration;92516
+Male;College;Administration;93320
+Female;High School;Administration;106963
+Female;PhD;Sales;111770
+Male;Masters;Engineering;106584
+Female;High School;Operations;57672
+Male;Masters;Administration;90612
+Female;High School;Engineering;97768
+Male;PhD;Administration;82790
+Female;Masters;Administration;76103
+Male;Masters;Administration;84628
+Female;College;Management;93441
+Male;Masters;Management;110636
+Female;PhD;Administration;108366
+Male;Masters;Management;135106
+Female;PhD;Administration;85453
+Male;High School;Management;100160
+Female;College;Administration;79765
+Male;PhD;Engineering;157169
+Female;PhD;Engineering;129683
+Female;College;Management;76908
+Female;High School;Management;93696
+Male;High School;Sales;88230
+Female;Masters;Management;83095
+Female;College;Sales;81325
+Female;PhD;Engineering;102106
+Female;PhD;Engineering;80635
+Female;College;Sales;73404
+Male;High School;Sales;83674
+Male;Masters;Engineering;118314
+Female;Masters;Sales;133741
+Male;PhD;Sales;119522
+Male;High School;Administration;84592
+Male;PhD;Sales;121589
+Female;High School;Engineering;104329
+Male;College;Engineering;71371
+Male;Masters;Sales;96582
+Male;PhD;Sales;108778
+Male;PhD;Management;128520
+Female;High School;Management;102745
+Female;Masters;Administration;146008
+Female;PhD;Management;68364
+Male;High School;Administration;62753
+Female;High School;Administration;96584
+Male;College;Engineering;128680
+Male;College;Management;152710
+Male;High School;Operations;109136
+Female;PhD;Operations;102265
+Female;High School;Management;81249
+Female;Masters;Management;101791
+Female;College;Sales;77584
+Female;Masters;Administration;88175
+Female;PhD;Engineering;65816
+Male;Masters;Sales;84878
+Female;Masters;Engineering;73685
+Female;Masters;Administration;55560
+Male;Masters;Administration;94745
+Female;PhD;Sales;106452
+Male;College;Management;95505
+Male;High School;Engineering;103181
+Male;Masters;Sales;120096
+Female;College;Administration;87575
+Male;High School;Management;98499
+Female;PhD;Sales;113140
+Male;PhD;Administration;152081
+Female;Masters;Management;100505
+Female;Masters;Management;104589
+Male;Masters;Sales;134450
+Female;High School;Management;61081
+Male;PhD;Operations;100819
+Male;PhD;Sales;157277
+Female;High School;Management;79237
+Male;High School;Sales;68175
+Female;College;Management;108475
+Male;High School;Sales;122624
+Female;College;Management;99942
+Female;PhD;Engineering;108296
+Male;Masters;Management;101273
+Male;Masters;Administration;59334
+Male;PhD;Management;152625
+Female;College;Sales;126370
+Female;Masters;Administration;122142
+Female;High School;Operations;75919
+Male;Masters;Operations;90526
+Female;PhD;Administration;103416
+Male;College;Engineering;133910
+Female;High School;Sales;104468
+Female;High School;Management;117202
+Female;PhD;Sales;139141
+Female;Masters;Management;134109
+Female;High School;Administration;66887
+Male;College;Operations;77839
+Male;High School;Sales;61018
+Female;High School;Sales;124847
+Female;PhD;Administration;50758
+Female;PhD;Operations;75316
+Male;PhD;Sales;118093
+Male;College;Operations;106503
+Female;College;Administration;111502
+Female;PhD;Engineering;116642
+Male;College;Operations;84683
+Female;PhD;Sales;113283
+Female;High School;Administration;86538
+Female;Masters;Engineering;77742
+Male;College;Sales;67913
+Female;College;Sales;114171
+Male;Masters;Engineering;155826
+Female;College;Operations;106204
+Female;High School;Administration;111041
+Male;PhD;Engineering;138184
+Female;College;Sales;95795
+Male;High School;Administration;106798
+Female;High School;Engineering;98575
+Male;Masters;Administration;82343
+Female;College;Engineering;117131
+Male;High School;Sales;78625
+Male;PhD;Administration;99134
+Female;College;Administration;38613
+Female;College;Operations;62866
+Male;Masters;Engineering;107818
+Female;High School;Operations;108731
+Male;College;Management;114621
+Female;High School;Sales;47739
+Male;Masters;Operations;104290
+Male;Masters;Sales;111403
+Male;College;Administration;93802
+Male;High School;Sales;138163
+Male;Masters;Operations;115613
+Female;Masters;Engineering;64920
+Female;PhD;Management;79177
+Male;College;Operations;64994
+Male;PhD;Sales;100941
+Male;High School;Management;163208
+Male;PhD;Operations;51837
+Male;Masters;Management;114048
+Female;High School;Management;136215
+Female;High School;Administration;63327
+Male;PhD;Engineering;139068
+Male;Masters;Engineering;136209
+Male;PhD;Management;121910
+Male;PhD;Management;82057
+Male;High School;Engineering;96023
+Female;High School;Sales;52578
+Female;College;Administration;114436
+Female;Masters;Sales;99543
+Female;College;Sales;60983
+Male;Masters;Administration;82277
+Female;College;Sales;55885
+Male;Masters;Operations;73142
+Male;High School;Operations;107065
+Female;PhD;Engineering;107064
+Female;High School;Operations;107370
+Female;High School;Sales;39741
+Male;High School;Management;120579
+Female;High School;Engineering;103242
+Female;Masters;Sales;120112
+Female;High School;Sales;83308
+Female;High School;Management;36585
+Female;College;Engineering;115344
+Male;High School;Management;49553
+Female;Masters;Administration;96982
+Female;High School;Management;80030
+Male;College;Sales;110157
+Female;High School;Administration;84047
+Male;PhD;Sales;93054
+Female;Masters;Engineering;84764
+Female;Masters;Management;120277
+Female;High School;Sales;81661
+Female;High School;Engineering;149893
+Male;High School;Management;81515
+Male;Masters;Operations;95898
+Male;PhD;Operations;90000
+Male;High School;Management;111896
+Male;Masters;Engineering;130082
+Female;PhD;Engineering;130417
+Female;College;Engineering;38855
+Male;High School;Administration;81057
+Male;High School;Management;117215
+Female;High School;Administration;96232
+Male;PhD;Operations;141186
+Male;High School;Operations;114943
+Male;PhD;Administration;107640
+Male;College;Operations;80259
+Female;College;Operations;86563
+Male;High School;Operations;61589
+Male;High School;Administration;74829
+Female;Masters;Administration;72248
+Male;High School;Operations;91342
+Male;Masters;Operations;101140
+Male;PhD;Sales;62600
+Male;High School;Engineering;65313
+Male;College;Administration;123153
+Male;High School;Management;57500
+Male;PhD;Administration;115604
+Male;High School;Sales;55555
+Male;PhD;Engineering;124166
+Male;Masters;Management;101050
+Female;College;Engineering;125828
+Female;High School;Management;75017
+Female;Masters;Engineering;100415
+Female;Masters;Operations;145095
+Female;High School;Administration;115641
+Male;College;Sales;160460
+Male;High School;Administration;85947
+Female;College;Engineering;119058
+Female;College;Administration;106722
+Female;PhD;Operations;91129
+Male;PhD;Sales;135512
+Female;College;Operations;92891
+Male;High School;Administration;124151
+Female;High School;Sales;141005
+Male;High School;Operations;115742
+Male;Masters;Sales;93358
+Female;High School;Sales;131411
+Female;College;Sales;96900
+Male;Masters;Sales;98995
+Male;High School;Sales;109645
+Male;College;Sales;61609
+Female;High School;Engineering;88820
+Male;Masters;Administration;122352
+Female;Masters;Management;112489
+Male;High School;Sales;86650
+Male;High School;Operations;101284
+Male;Masters;Sales;119794
+Male;Masters;Operations;96609
+Female;PhD;Engineering;53839
+Male;Masters;Operations;84725
+Female;High School;Administration;64807
+Female;High School;Management;41151
+Female;College;Administration;114031
+Male;High School;Management;59493
+Female;High School;Management;119893
+Male;College;Sales;131980
+Female;High School;Sales;94154
+Female;College;Management;114906
+Female;Masters;Management;115981
+Male;PhD;Administration;78836
+Male;Masters;Operations;112719
+Female;Masters;Sales;93018
+Female;College;Sales;69928
+Female;High School;Engineering;104623
+Male;College;Administration;103328
+Male;High School;Management;68643
+Female;High School;Sales;63914
+Male;High School;Engineering;67296
+Female;College;Sales;90474
+Female;High School;Administration;60026
+Female;PhD;Management;108587
+Female;Masters;Engineering;139042
+Male;High School;Operations;116803
+Female;Masters;Operations;101423
+Male;Masters;Operations;86375
+Male;College;Operations;49449
+Female;High School;Sales;95995
+Male;College;Management;118282
+Female;PhD;Operations;99472
+Female;High School;Administration;135638
+Male;College;Operations;85648
+Female;PhD;Management;121457
+Female;PhD;Operations;114141
+Male;PhD;Management;179726
+Female;College;Administration;107572
+Female;PhD;Sales;142505
+Male;PhD;Sales;108719
+Male;High School;Sales;109832
+Male;PhD;Administration;127250
+Female;Masters;Sales;106279
+Male;High School;Sales;81547
+Male;Masters;Administration;95798
+Female;High School;Management;106916
+Male;PhD;Administration;124782
+Male;College;Operations;126256
+Female;PhD;Engineering;92257
+Male;High School;Sales;124660
+Female;High School;Engineering;59377
+Female;PhD;Engineering;76726
+Female;High School;Engineering;112502
+Male;Masters;Sales;128730
+Male;College;Sales;136836
+Male;High School;Engineering;89272
+Female;High School;Operations;101515
+Male;Masters;Operations;93855
+Male;College;Operations;36642
+Male;College;Operations;112604
+Female;PhD;Engineering;67089
+Female;PhD;Management;97789
+Male;PhD;Administration;123333
+Male;PhD;Management;105771
+Female;College;Administration;54945
+Female;PhD;Operations;121239
+Female;High School;Sales;87314
+Female;PhD;Operations;124530
+Female;College;Sales;67150
+Male;College;Engineering;99643
+Male;College;Administration;92468
+Female;College;Operations;63300
+Male;Masters;Operations;91447
+Female;High School;Operations;60271
+Male;Masters;Operations;45915
+Female;Masters;Operations;66028
+Male;PhD;Administration;113031
+Male;High School;Sales;132815
+Male;High School;Management;110078
+Male;Masters;Sales;106918
+Male;High School;Administration;106045
+Male;High School;Operations;107479
+Male;Masters;Sales;109606
+Female;High School;Engineering;91300
+Male;High School;Management;88195
+Female;Masters;Operations;90999
+Female;College;Operations;86795
+Female;College;Sales;110627
+Female;PhD;Sales;97696
+Male;Masters;Sales;92950
+Male;High School;Operations;82164
+Male;High School;Management;119069
+Female;College;Engineering;62738
+Female;High School;Administration;112169
+Male;High School;Administration;120574
+Male;College;Sales;97311
+Female;High School;Operations;98796
+Male;Masters;Administration;102593
+Female;High School;Administration;96665
+Female;Masters;Engineering;91030
+Female;Masters;Administration;106945
+Female;College;Administration;81545
+Female;Masters;Administration;80789
+Female;PhD;Administration;85253
+Female;High School;Administration;62644
+Male;Masters;Sales;108977
+Male;High School;Operations;92347
+Male;High School;Administration;97376
+Male;PhD;Sales;123108
