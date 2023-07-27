@@ -271,12 +271,23 @@ def create_dag(graph: dict) -> ([], dict):
     return ordering[::-1], new_graph
 
 
-def get_conditional_dist_cat(source: pd.Series, target: pd.Series) -> pd.DataFrame:
-    return pd.crosstab(source, target, normalize=True)
+def get_conditional_dist_cat(source: pd.Series, target: pd.Series) -> dict:
+    contingency_table = pd.crosstab(source, target)
+    conditional_probs = contingency_table.div(contingency_table.sum(axis=0), axis=1)
+    print(conditional_probs)
+    return conditional_probs.to_dict()
 
 
 def get_conditional_dist_num(source: pd.Series, target: pd.Series):
     pass
+
+
+def get_conditional_min_max_bound(source: pd.Series, target: pd.Series) -> dict:
+    df = pd.DataFrame({'source': source, 'target': target})
+    min_max = df.groupby('target')['source'].agg(['min', 'max'])
+    print(min_max)
+
+    return min_max.to_dict(orient="index")
 
 
 def get_association_constraints(association_dag: dict, input_data: pd.DataFrame) -> dict:
@@ -287,7 +298,9 @@ def get_association_constraints(association_dag: dict, input_data: pd.DataFrame)
 
         for n, neighbors in dag.items():
             for neighbor, weight in neighbors.items():
-                inverted_dag[neighbor] = {}
+                if neighbor not in inverted_dag:
+                    inverted_dag[neighbor] = {}
+
                 inverted_dag[neighbor][n] = weight
 
         return inverted_dag
@@ -306,7 +319,7 @@ def get_association_constraints(association_dag: dict, input_data: pd.DataFrame)
                 association_cons[column_A][column_B] = {
                     # Todo: add min-max and conditional distribution
                     "inf_error": inverted_association_errors[column_A][column_B],
-                    "min-max": {},
+                    "min-max": get_conditional_min_max_bound(input_data[column_A], input_data[column_B]),
                     "conditional_dist": {}
                 }
 
@@ -424,10 +437,51 @@ def generate_data_v1(constraints: dict, n: int) -> pd.DataFrame:
 def generate_data_v2(constraints: dict, n: int) -> pd.DataFrame:
     gen_data = {}
 
-    # for column, constraint in constraints.items():
+    for column, details in constraints.items():
+        column_constraints = details["constraints"]["column"]
+        association_constraints = details["constraints"]["associations"]
+        col_type = details["type"]
 
+        # case 1: no incoming edges
+        if len(association_constraints) == 0:
+            if col_type == "cat":
+                values = list(column_constraints.keys())
+                p = list(column_constraints.values())
+                gen_data[column] = np.random.choice(values, n, p=p)
+            else:
+                min_bound = column_constraints["min-max"]["min"]
+                max_bound = column_constraints["min-max"]["max"]
+                distribution = column_constraints["distribution"]
+                gen_data[column] = generate_num_column(min_bound, max_bound, distribution, n)
+
+        # case 2: one incoming edge
+        elif len(association_constraints) == 1:
+            if col_type == "cat":
+                incoming_node = list(association_constraints.keys())[0]
+
+                if incoming_node in gen_data:
+                    column_data = []
+
+                    # iterate through the values of the generated source column
+                    for source_value in gen_data[incoming_node]:
+                        # generate value based on the conditional probabilities
+                        conditional_dist = association_constraints[incoming_node]["conditional_dist"][source_value]
+                        target_values = list(conditional_dist.keys())
+                        target_p = list(conditional_dist.values())
+                        column_data.append(np.random.choice(target_values, p=target_p))
+
+                    gen_data[column] = column_data
+                else:
+                    raise KeyError(f"column {incoming_node} has not been generated yet")
+            else:
+                continue
+
+        # case 3: multiple incoming edges
+        else:
+            continue
 
     return pd.DataFrame(gen_data)
+
 
 if __name__ == '__main__':
     data = pd.DataFrame({
@@ -471,6 +525,10 @@ if __name__ == '__main__':
     # print(f"association constraints: {assoc_cons}")
     full_dag = get_full_dag(col_cons, dag, assoc_cons, topological_order)
     print(f"{full_dag}")
+
+    new_data = generate_data_v2(full_dag, 10)
+    print(new_data)
+
     # new_data = generate_data_v1(col_cons, 10)
     # print("new data:")
     # print(new_data)
