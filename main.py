@@ -58,7 +58,6 @@ def infer_distribution(column_data: pd.Series) -> [str, float]:
 def chi_square_result(source: pd.Series, target: pd.Series) -> float:
     # count the frequencies using crosstab
     observed = np.array(pd.crosstab(source, target).values)
-
     # degrees of freedom: (number of rows - 1) * (number of columns - 1)
     ddof = (len(observed) - 1) * (len(observed[0]) - 1)
     p_value = stats.chisquare(observed, ddof=ddof, axis=None)[1]
@@ -127,16 +126,24 @@ def get_column_constraints(input_data: pd.DataFrame) -> dict:
         if series.dtype == object:
             constraints[column] = {
                 "type": "cat",
+                "gen_node": True,
                 "constraints": get_frequency_dist(series)
             }
         else:
             # getting statistical min_max only for now, to-do: get distribution
             distribution, p_value = infer_distribution(series)
             inf_error = 0
+            is_gen_node = True
+
             if p_value > 0:
                 inf_error = 1 - p_value
+
+            if distribution == '':
+                is_gen_node = False
+
             constraints[column] = {
                 "type": "num",
+                "gen_node": is_gen_node,
                 "constraints": {
                     "min-max": get_min_max_bound(series),
                     "distribution": distribution,
@@ -147,14 +154,14 @@ def get_column_constraints(input_data: pd.DataFrame) -> dict:
     return constraints
 
 
-def get_association_constraints(input_data: pd.DataFrame) -> dict:
-    association_constraints = {}
+def get_association_errors(input_data: pd.DataFrame) -> dict:
+    association_errors = {}
 
     # create matrix for each source node A with target node B
     for column_A, series_A in input_data.items():
         # check whether column is categorical or numerical
         if series_A.dtype == object:
-            association_constraints[column_A] = {}
+            association_errors[column_A] = {}
 
             for column_B, series_B in input_data.items():
                 if column_A == column_B:
@@ -169,20 +176,20 @@ def get_association_constraints(input_data: pd.DataFrame) -> dict:
                     # in case p-value < significance level
                     if chi_square < significance_level:
                         uncertainty_coefficient = theil_u(series_A, series_B)
-                        association_constraints[column_A][column_B] = 1 - uncertainty_coefficient
+                        association_errors[column_A][column_B] = 1 - uncertainty_coefficient
                     else:
                         print(f"no significant association between {column_A} and {column_B}")
                         continue
                 # cat_num
                 else:
                     filtered_data = input_data[[column_A, column_B]]
-                    association_constraints[column_A][column_B] = get_mean_dist_error(filtered_data)
+                    association_errors[column_A][column_B] = get_mean_dist_error(filtered_data)
 
         else:
             # numerical columns as source nodes are not included
             continue
 
-    return association_constraints
+    return association_errors
 
 
 def reduce_matrix(graph: dict) -> dict:
@@ -264,6 +271,80 @@ def create_dag(graph: dict) -> ([], dict):
     return ordering[::-1], new_graph
 
 
+def get_conditional_dist_cat(source: pd.Series, target: pd.Series) -> pd.DataFrame:
+    return pd.crosstab(source, target, normalize=True)
+
+
+def get_conditional_dist_num(source: pd.Series, target: pd.Series):
+    pass
+
+
+def get_association_constraints(association_dag: dict, input_data: pd.DataFrame) -> dict:
+    association_cons = {}
+
+    def invert_dag(dag: dict) -> dict:
+        inverted_dag = {}
+
+        for n, neighbors in dag.items():
+            for neighbor, weight in neighbors.items():
+                inverted_dag[neighbor] = {}
+                inverted_dag[neighbor][n] = weight
+
+        return inverted_dag
+
+    inverted_association_errors = invert_dag(association_dag)
+
+    for column_A in inverted_association_errors:
+        association_cons[column_A] = {}
+        for column_B in inverted_association_errors[column_A]:
+            if input_data[column_A].dtype == object:
+                association_cons[column_A][column_B] = {
+                    "inf_error": inverted_association_errors[column_A][column_B],
+                    "conditional_dist": get_conditional_dist_cat(input_data[column_A], input_data[column_B])
+                }
+            else:
+                association_cons[column_A][column_B] = {
+                    # Todo: add min-max and conditional distribution
+                    "inf_error": inverted_association_errors[column_A][column_B],
+                    "min-max": {},
+                    "conditional_dist": {}
+                }
+
+    return association_cons
+
+
+def get_full_dag(column_constraints: dict, dag: dict, association_constraints: dict, top_order: list) -> dict:
+    nodes = {}
+    ordered_nodes = {}
+
+    for n, value in column_constraints.items():
+        nodes[n] = {}
+        association_cons = {}
+        targets = []
+
+        if n in dag:
+            targets = list(dag[n].keys())
+
+        if n in association_constraints:
+            association_cons = association_constraints[n]
+
+        nodes[n] = {
+            "type": column_constraints[n]["type"],
+            "gen_node": column_constraints[n]["gen_node"],
+            "constraints": {
+                "column": column_constraints[n]["constraints"],
+                # all nodes pointing to n
+                "associations": association_cons
+            },
+            "targets": targets
+        }
+
+    for n in top_order:
+        ordered_nodes[n] = nodes[n]
+
+    return ordered_nodes
+
+
 # 'merge' inferred constraints with user defined constraints
 # columns existent in the udc simply override the current inferred constraints
 def get_merged_constraints(user_def_cons: dict, inferred_cons: dict) -> dict:
@@ -340,6 +421,14 @@ def generate_data_v1(constraints: dict, n: int) -> pd.DataFrame:
     return pd.DataFrame(gen_data)
 
 
+def generate_data_v2(constraints: dict, n: int) -> pd.DataFrame:
+    gen_data = {}
+
+    # for column, constraint in constraints.items():
+
+
+    return pd.DataFrame(gen_data)
+
 if __name__ == '__main__':
     data = pd.DataFrame({
         'Fruit': ['Apple', 'Apple', 'Apple', 'Banana', 'Banana', 'Banana', 'Orange', 'Orange', 'Orange'],
@@ -370,23 +459,27 @@ if __name__ == '__main__':
     data_3 = pd.DataFrame(json_data)
 
     col_cons = get_column_constraints(data_3)
-    print("column constraints:")
-    print(col_cons)
-    assoc_cons = get_association_constraints(data_3)
-    print("association constraints:")
-    print(assoc_cons)
-    reduced_matrix = reduce_matrix(assoc_cons)
-    dag = create_dag(reduced_matrix)
-    print(f"dag: {dag}")
-    new_data = generate_data_v1(col_cons, 10)
-    print("new data:")
-    print(new_data)
-    merged_cons = get_merged_constraints(user_defined_cons, col_cons)
-    print("merged constraints")
-    print(merged_cons)
-    new_data_udc = generate_data_v1(merged_cons, 20)
-    print("new data with merged constraints:")
-    print(new_data_udc)
+    # print("column constraints:")
+    # print(col_cons)
+    assoc_errors = get_association_errors(data_3)
+    # print("association errors:")
+    # print(assoc_errors)
+    reduced_matrix = reduce_matrix(assoc_errors)
+    topological_order, dag = create_dag(reduced_matrix)
+    # print(f"dag: {dag}")
+    assoc_cons = get_association_constraints(dag, data_3)
+    # print(f"association constraints: {assoc_cons}")
+    full_dag = get_full_dag(col_cons, dag, assoc_cons, topological_order)
+    print(f"{full_dag}")
+    # new_data = generate_data_v1(col_cons, 10)
+    # print("new data:")
+    # print(new_data)
+    # merged_cons = get_merged_constraints(user_defined_cons, col_cons)
+    # print("merged constraints")
+    # print(merged_cons)
+    # new_data_udc = generate_data_v1(merged_cons, 20)
+    # print("new data with merged constraints:")
+    # print(new_data_udc)
 
 
 #################################
