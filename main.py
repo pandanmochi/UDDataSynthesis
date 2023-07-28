@@ -1,11 +1,8 @@
-from collections import defaultdict
-
 import pandas as pd
 import numpy as np
 import math
 from scipy import stats
 import json
-import networkx as nx
 
 
 def get_frequency_dist(col: pd.Series) -> dict:
@@ -31,6 +28,7 @@ def infer_distribution(column_data: pd.Series) -> [str, float]:
     distributions = ['norm', 'uniform', 'beta', 'expon', 'gamma']
     best_distribution = ''
     best_p_value = 0.0
+    params_best_dist = ()
 
     for distribution in distributions:
 
@@ -51,8 +49,9 @@ def infer_distribution(column_data: pd.Series) -> [str, float]:
         if p_value > 0.05 and p_value > best_p_value:
             best_distribution = distribution
             best_p_value = p_value
+            params_best_dist = params
 
-    return best_distribution, best_p_value
+    return best_distribution, best_p_value, params_best_dist
 
 
 def chi_square_result(source: pd.Series, target: pd.Series) -> float:
@@ -100,14 +99,7 @@ def get_mean_dist_error(filtered_data: pd.DataFrame) -> float:
     for value in cat_values:
         value_data = filtered_data.loc[cat_col == value].iloc[:, 1]
 
-        # try:
-        #     params = getattr(stats, distribution).fit(value_data)
-        # except stats._warnings_errors.FitError:
-        #     print(f"FitError occurred for value {value}.")
-        #
-        # p_value = stats.kstest(value_data, distribution, args=params)[1]
-
-        distribution, p_value = infer_distribution(value_data)
+        distribution, p_value, params = infer_distribution(value_data)
 
         distribution_errors.append(1 - p_value)
 
@@ -131,7 +123,7 @@ def get_column_constraints(input_data: pd.DataFrame) -> dict:
             }
         else:
             # getting statistical min_max only for now, to-do: get distribution
-            distribution, p_value = infer_distribution(series)
+            distribution, p_value, params = infer_distribution(series)
             inf_error = 0
             is_gen_node = True
 
@@ -147,6 +139,7 @@ def get_column_constraints(input_data: pd.DataFrame) -> dict:
                 "constraints": {
                     "min-max": get_min_max_bound(series),
                     "distribution": distribution,
+                    "params": params,
                     "inf_error": inf_error
                 }
             }
@@ -278,13 +271,24 @@ def get_conditional_dist_cat(source: pd.Series, target: pd.Series) -> dict:
     return conditional_probs.to_dict()
 
 
-def get_conditional_dist_num(source: pd.Series, target: pd.Series):
-    pass
+def get_conditional_dist_num(source: pd.Series, target: pd.Series, input_data: pd.DataFrame) -> dict:
+    conditional_dist = {}
+    grouped_data = input_data.groupby(source)[target]
+
+    for source_value, target_col in grouped_data:
+        target_series = target_col.squeeze()
+        distribution, p_value, params = infer_distribution(target_series)
+        conditional_dist[source_value] = {
+            "distribution": distribution,
+            "params": params
+        }
+
+    return conditional_dist
 
 
 def get_conditional_min_max_bound(source: pd.Series, target: pd.Series) -> dict:
     df = pd.DataFrame({'source': source, 'target': target})
-    min_max = df.groupby('target')['source'].agg(['min', 'max'])
+    min_max = df.groupby('source')['target'].agg(['min', 'max'])
     print(min_max)
 
     return min_max.to_dict(orient="index")
@@ -319,8 +323,8 @@ def get_association_constraints(association_dag: dict, input_data: pd.DataFrame)
                 association_cons[column_A][column_B] = {
                     # Todo: add min-max and conditional distribution
                     "inf_error": inverted_association_errors[column_A][column_B],
-                    "min-max": get_conditional_min_max_bound(input_data[column_A], input_data[column_B]),
-                    "conditional_dist": {}
+                    "min-max": get_conditional_min_max_bound(input_data[column_B], input_data[column_A]),
+                    "distributions": get_conditional_dist_num(column_B, column_A, input_data)
                 }
 
     return association_cons
@@ -411,6 +415,13 @@ def generate_num_column(min_bound: int, max_bound: int, distribution: str, n: in
         return np.random.randint(min_bound, max_bound + 1, n)
 
 
+def generate_num_column_v2(min_bound: int, max_bound: int, distribution: str, params: tuple, n: int) -> np.array:
+    if distribution != '':
+        return getattr(stats, distribution).rvs(*params, size=n)
+    else:
+        return np.random.randint(min_bound, max_bound + 1, n)
+
+
 def generate_data_v1(constraints: dict, n: int) -> pd.DataFrame:
     gen_data = {}
 
@@ -426,7 +437,8 @@ def generate_data_v1(constraints: dict, n: int) -> pd.DataFrame:
             min_bound = cons["min-max"]["min"]
             max_bound = cons["min-max"]["max"]
             distribution = cons["distribution"]
-            gen_data[column] = generate_num_column(min_bound, max_bound, distribution, n)
+            params = cons["params"]
+            gen_data[column] = generate_num_column_v2(min_bound, max_bound, distribution, params, n)
 
         else:
             raise KeyError(f"Expected key 'type' not found.")
@@ -514,7 +526,7 @@ if __name__ == '__main__':
 
     col_cons = get_column_constraints(data_3)
     # print("column constraints:")
-    # print(col_cons)
+    print(col_cons)
     assoc_errors = get_association_errors(data_3)
     # print("association errors:")
     # print(assoc_errors)
@@ -526,12 +538,12 @@ if __name__ == '__main__':
     full_dag = get_full_dag(col_cons, dag, assoc_cons, topological_order)
     print(f"{full_dag}")
 
-    new_data = generate_data_v2(full_dag, 10)
-    print(new_data)
-
-    # new_data = generate_data_v1(col_cons, 10)
-    # print("new data:")
+    # new_data = generate_data_v2(full_dag, 10)
     # print(new_data)
+
+    new_data = generate_data_v1(col_cons, 10)
+    print("new data:")
+    print(new_data)
     # merged_cons = get_merged_constraints(user_defined_cons, col_cons)
     # print("merged constraints")
     # print(merged_cons)
