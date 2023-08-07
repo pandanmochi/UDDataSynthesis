@@ -31,16 +31,7 @@ def infer_distribution(column_data: pd.Series) -> [str, float]:
     params_best_dist = ()
 
     for distribution in distributions:
-
-        try:
-            params = getattr(stats, distribution).fit(column_data)
-        except stats._warnings_errors.FitError:
-            # Handle the FitError here
-            print(f"FitError occurred for value.")
-            # Perform alternative actions or set default parameter values
-
-        # fit the distribution to data
-        # params = getattr(stats, distribution).fit(column_data)
+        params = getattr(stats, distribution).fit(column_data)
 
         # perform KS test
         p_value = stats.kstest(column_data, distribution, args=params)[1]
@@ -55,11 +46,12 @@ def infer_distribution(column_data: pd.Series) -> [str, float]:
 
 
 def chi_square_result(source: pd.Series, target: pd.Series) -> float:
+    significance_level = 0.05
     # count the frequencies using crosstab
     observed = np.array(pd.crosstab(source, target).values)
-    # degrees of freedom: (number of rows - 1) * (number of columns - 1)
-    ddof = (len(observed) - 1) * (len(observed[0]) - 1)
-    p_value = stats.chisquare(observed, ddof=ddof, axis=None)[1]
+    stat, p_value, dof, expected = stats.chi2_contingency(observed)
+    print(observed)
+    print(expected)
 
     return p_value
 
@@ -79,7 +71,7 @@ def conditional_entropy(source: pd.Series, target: pd.Series) -> float:
     return entropy
 
 
-def theil_u(x, y):
+def uncertainty_coefficient(x, y):
     h_xy = conditional_entropy(x, y)
     x_counts = x.value_counts(normalize=True)
     h_x = stats.entropy(x_counts)
@@ -154,22 +146,33 @@ def get_association_errors(input_data: pd.DataFrame) -> dict:
     for column_A, series_A in input_data.items():
         # check whether column is categorical or numerical
         if series_A.dtype == object:
-            association_errors[column_A] = {}
+            if column_A not in association_errors:
+                association_errors[column_A] = {}
 
             for column_B, series_B in input_data.items():
                 if column_A == column_B:
                     continue
                 # cat_cat
                 elif series_B.dtype == object:
+                    if column_B not in association_errors:
+                        association_errors[column_B] = {}
+
                     print(f"check association between {column_A} and {column_B}...")
                     # perform chi-square test to determine whether there is a significant association
                     chi_square = chi_square_result(series_A, series_B)
-                    significance_level = 0.05
+                    significance_level = 0.2
+                    print(f"p-value of {column_A} and {column_B}: {chi_square}")
                     # measure strength of association with uncertainty coefficient
                     # in case p-value < significance level
                     if chi_square < significance_level:
-                        uncertainty_coefficient = theil_u(series_A, series_B)
-                        association_errors[column_A][column_B] = 1 - uncertainty_coefficient
+                        u_value_ab = uncertainty_coefficient(series_A, series_B)
+                        u_value_ba = uncertainty_coefficient(series_B, series_A)
+                        print(f"uncertainty coeff {column_A} to {column_B}: {u_value_ab}")
+                        print(f"uncertainty coeff {column_B} to {column_A}: {u_value_ba}")
+                        if u_value_ab > u_value_ba:
+                            association_errors[column_A][column_B] = 1 - u_value_ab
+                        else:
+                            association_errors[column_B][column_A] = 1 - u_value_ba
                     else:
                         print(f"no significant association between {column_A} and {column_B}")
                         continue
@@ -183,31 +186,6 @@ def get_association_errors(input_data: pd.DataFrame) -> dict:
             continue
 
     return association_errors
-
-
-def reduce_matrix(graph: dict) -> dict:
-    new_graph = graph.copy()
-    visited = set()
-
-    def dfs(n):
-        visited.add(n)
-        if n in graph:
-            for neighbor in list(new_graph[n]):
-                if neighbor not in visited:
-                    dfs(neighbor)
-                else:
-                    # if cycle is detected
-                    if neighbor in new_graph and new_graph[neighbor].get(n) is not None:
-                        if new_graph[n][neighbor] < new_graph[neighbor][n]:
-                            del new_graph[neighbor][n]
-                        else:
-                            del new_graph[n][neighbor]
-
-    for node in new_graph:
-        if node not in visited:
-            dfs(node)
-
-    return new_graph
 
 
 def get_max_edge(edges: dict) -> (str, str):
@@ -464,16 +442,17 @@ def generate_data_v2(constraints: dict, n: int) -> pd.DataFrame:
                 min_bound = column_constraints["min-max"]["min"]
                 max_bound = column_constraints["min-max"]["max"]
                 distribution = column_constraints["distribution"]
-                gen_data[column] = generate_num_column(min_bound, max_bound, distribution, n)
+                params = column_constraints["params"]
+                gen_data[column] = generate_num_column_v2(min_bound, max_bound, distribution, params, n)
 
         # case 2: one incoming edge
         elif len(association_constraints) == 1:
-            if col_type == "cat":
-                incoming_node = list(association_constraints.keys())[0]
+            incoming_node = list(association_constraints.keys())[0]
 
-                if incoming_node in gen_data:
-                    column_data = []
+            if incoming_node in gen_data:
+                column_data = []
 
+                if col_type == "cat":
                     # iterate through the values of the generated source column
                     for source_value in gen_data[incoming_node]:
                         # generate value based on the conditional probabilities
@@ -482,11 +461,18 @@ def generate_data_v2(constraints: dict, n: int) -> pd.DataFrame:
                         target_p = list(conditional_dist.values())
                         column_data.append(np.random.choice(target_values, p=target_p))
 
-                    gen_data[column] = column_data
+                # numerical column
                 else:
-                    raise KeyError(f"column {incoming_node} has not been generated yet")
+                    for source_value in gen_data[incoming_node]:
+                        source_value_dist = association_constraints[incoming_node]["distributions"][source_value]
+                        distribution = source_value_dist["distribution"]
+                        params = source_value_dist["params"]
+                        column_data.append(getattr(stats, distribution).rvs(*params))
+
+                gen_data[column] = column_data
+
             else:
-                continue
+                raise KeyError(f"column {incoming_node} has not been generated yet")
 
         # case 3: multiple incoming edges
         else:
@@ -524,47 +510,42 @@ if __name__ == '__main__':
     # Convert JSON data to a DataFrame
     data_3 = pd.DataFrame(json_data)
 
+    data_4 = data_3.drop(columns=['Dept', 'Education'])
+
     col_cons = get_column_constraints(data_3)
-    # print("column constraints:")
+    print("column constraints:")
     print(col_cons)
     assoc_errors = get_association_errors(data_3)
-    # print("association errors:")
-    # print(assoc_errors)
-    reduced_matrix = reduce_matrix(assoc_errors)
-    topological_order, dag = create_dag(reduced_matrix)
-    # print(f"dag: {dag}")
+    print("association errors:")
+    print(assoc_errors)
+    # reduced_matrix = reduce_matrix(assoc_errors)
+    topological_order, dag = create_dag(assoc_errors)
+    print(f"dag: {dag}")
     assoc_cons = get_association_constraints(dag, data_3)
-    # print(f"association constraints: {assoc_cons}")
+    print(f"association constraints: {assoc_cons}")
     full_dag = get_full_dag(col_cons, dag, assoc_cons, topological_order)
-    print(f"{full_dag}")
+    print(f"dag: {full_dag}")
 
-    # new_data = generate_data_v2(full_dag, 10)
+    new_data = generate_data_v2(full_dag, 1000)
+
+    # col_cons_new_data = get_column_constraints(new_data)
+    # assoc_errors_new = get_association_errors(new_data)
+    # reduced_matrix_new = reduce_matrix(assoc_errors_new)
+    # top_order, dag_new = create_dag(reduced_matrix_new)
+    # assoc_cons_new = get_association_constraints(dag_new, new_data)
+    # full_dag_new = get_full_dag(col_cons_new_data, dag_new, assoc_cons_new, top_order)
+    # print(f"new dag: {full_dag_new}")
+    #
+    # print(col_cons_new_data)
+
     # print(new_data)
 
-    new_data = generate_data_v1(col_cons, 10)
-    print("new data:")
-    print(new_data)
+    # new_data = generate_data_v1(col_cons, 10)
+    # print("new data:")
+    # print(new_data)
     # merged_cons = get_merged_constraints(user_defined_cons, col_cons)
     # print("merged constraints")
     # print(merged_cons)
     # new_data_udc = generate_data_v1(merged_cons, 20)
     # print("new data with merged constraints:")
     # print(new_data_udc)
-
-
-#################################
-# backlog
-#################################
-
-def create_cdg(constraints):
-    pass
-
-
-def data_syn_with_cons(cdg, num_samples):
-    pass
-
-
-def data_synthesis(input_data, num_samples):
-    constraints = get_column_constraints(input_data)
-    cdg = create_cdg(constraints)
-    return data_syn_with_cons(cdg, num_samples)
