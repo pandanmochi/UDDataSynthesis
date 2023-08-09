@@ -32,9 +32,9 @@ if __name__ == '__main__':
     new_salary_data = ds.generate_data(cdg_salaries, 1000)
     new_adult_data = ds.generate_data(cdg_adult, 1000)
 
-    new_iris_data.to_csv("synthetic_datasets/iris_synthetic.csv")
-    new_mushroom_data.to_csv("synthetic_datasets/mushroom_synthetic.csv")
-    new_salary_data.to_csv("synthetic_datasets/salary_synthetic.csv")
-    new_adult_data.to_csv("synthetic_datasets/adult_synthetic.csv")
+    new_iris_data.to_csv("synthetic_datasets/iris_synthetic.csv", index=False)
+    new_mushroom_data.to_csv("synthetic_datasets/mushroom_synthetic.csv", index=False)
+    new_salary_data.to_csv("synthetic_datasets/salary_synthetic.csv", index=False)
+    new_adult_data.to_csv("synthetic_datasets/adult_synthetic.csv", index=False)
 
 
