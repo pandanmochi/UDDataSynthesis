@@ -1,0 +1,1001 @@
+,Dept,Gender,Education,BasePay
+0,Management,Male,Masters,77274.24111894367
+1,Sales,Male,High School,103290.43092640018
+2,Administration,Male,Masters,74442.28986244083
+3,Operations,Male,Masters,68441.87910215411
+4,Administration,Male,College,137677.5776795196
+5,Engineering,Male,College,144104.63921524695
+6,Administration,Female,College,109705.62609760748
+7,Administration,Female,High School,120084.11951318468
+8,Management,Male,PhD,95990.83006187032
+9,Sales,Female,PhD,78824.15527154708
+10,Sales,Female,PhD,86119.09322920302
+11,Administration,Male,College,92466.55891223605
+12,Operations,Male,Masters,144466.73861919384
+13,Administration,Male,Masters,70075.30129776405
+14,Sales,Female,Masters,73242.2024988411
+15,Engineering,Male,Masters,112642.08930239736
+16,Administration,Female,College,121355.09456398516
+17,Engineering,Female,College,140238.00859321514
+18,Administration,Male,Masters,97453.23921962646
+19,Sales,Female,PhD,145023.00006308014
+20,Engineering,Male,PhD,81349.69240546576
+21,Engineering,Female,PhD,56840.31227485516
+22,Operations,Male,PhD,127739.90847537841
+23,Sales,Male,High School,69260.40928371578
+24,Management,Female,High School,93994.34671210413
+25,Sales,Male,PhD,156278.6408717271
+26,Administration,Female,High School,92012.81362908472
+27,Management,Female,High School,128431.92496321215
+28,Sales,Male,High School,126538.76840095701
+29,Sales,Male,PhD,67575.3313726136
+30,Management,Male,Masters,143647.15927536236
+31,Engineering,Male,College,78833.12618403701
+32,Management,Female,Masters,60507.37732877333
+33,Engineering,Male,High School,140073.56031425847
+34,Sales,Male,PhD,124823.6579871403
+35,Engineering,Male,High School,65692.79945106906
+36,Engineering,Male,PhD,113981.78685608595
+37,Administration,Female,Masters,90160.70668474413
+38,Administration,Female,Masters,78209.80040102935
+39,Management,Male,PhD,75347.50602783031
+40,Operations,Male,College,133868.07982444065
+41,Operations,Female,PhD,90592.68248863814
+42,Operations,Female,College,81691.30918407402
+43,Engineering,Male,College,72496.28205471409
+44,Engineering,Female,PhD,96189.95808843472
+45,Engineering,Male,High School,128974.18531184287
+46,Management,Male,Masters,81561.57654410912
+47,Sales,Female,High School,50050.949424987564
+48,Engineering,Female,College,79798.71890605785
+49,Sales,Female,Masters,79622.28307489691
+50,Engineering,Male,High School,62254.36390630926
+51,Operations,Male,High School,111848.25949867105
+52,Operations,Male,PhD,101849.58685451596
+53,Engineering,Male,College,144538.9960863912
+54,Operations,Female,Masters,111864.6307020451
+55,Engineering,Female,High School,83837.40682082482
+56,Management,Female,College,33988.19699158227
+57,Operations,Female,High School,105992.06818582748
+58,Administration,Female,High School,82519.22664184273
+59,Management,Female,High School,124439.98635634214
+60,Engineering,Male,PhD,89555.11602237518
+61,Engineering,Male,College,49178.5687145614
+62,Sales,Female,PhD,59275.280696868125
+63,Management,Male,College,81530.0585387035
+64,Operations,Female,College,102829.15171759672
+65,Administration,Female,High School,141719.62134734212
+66,Sales,Female,College,41661.18244781625
+67,Sales,Male,PhD,106070.72653101965
+68,Operations,Male,High School,77296.68916803635
+69,Sales,Female,High School,82236.6796967463
+70,Engineering,Female,PhD,100441.31310941021
+71,Management,Female,Masters,69700.7539032388
+72,Engineering,Female,College,72948.00851968712
+73,Engineering,Male,College,102620.78914819579
+74,Administration,Female,Masters,75756.3471006865
+75,Operations,Female,Masters,111054.5052697858
+76,Engineering,Male,High School,74045.66138247866
+77,Sales,Female,College,51335.62346199431
+78,Sales,Male,PhD,73309.61625700157
+79,Management,Male,College,110569.78009508108
+80,Engineering,Male,Masters,81566.31930426552
+81,Administration,Male,High School,99084.10822880807
+82,Administration,Female,Masters,63547.00973235087
+83,Sales,Male,College,90994.78182300695
+84,Operations,Male,Masters,119652.58700893472
+85,Administration,Female,High School,108759.76700351268
+86,Engineering,Female,High School,47184.31799040487
+87,Administration,Female,PhD,69915.35978214612
+88,Engineering,Male,PhD,87265.85242602137
+89,Operations,Male,Masters,80494.92724384017
+90,Administration,Female,High School,84438.0567410192
+91,Administration,Male,High School,109715.94221507628
+92,Administration,Female,PhD,62936.1887029975
+93,Administration,Male,PhD,102006.24312047564
+94,Administration,Female,Masters,107689.29795559823
+95,Operations,Male,College,139426.36546768865
+96,Sales,Female,PhD,81938.7725094538
+97,Administration,Male,Masters,82867.28592128662
+98,Sales,Female,Masters,72818.08122722984
+99,Sales,Female,PhD,92585.86470849885
+100,Sales,Female,College,159730.60301090885
+101,Management,Female,College,104598.72681651912
+102,Engineering,Female,College,89465.10657201266
+103,Management,Male,Masters,81359.87492644179
+104,Operations,Female,High School,56273.05670897065
+105,Management,Male,Masters,115923.52619029184
+106,Administration,Male,Masters,36649.98950062876
+107,Management,Male,Masters,154903.25330307765
+108,Management,Female,PhD,120190.37353820629
+109,Administration,Male,High School,143448.15915877305
+110,Operations,Male,High School,77820.65250151929
+111,Management,Female,Masters,98452.81356576738
+112,Management,Female,Masters,67772.07298035243
+113,Engineering,Female,Masters,93846.13872841037
+114,Administration,Male,College,123796.22408302003
+115,Administration,Male,College,171059.70382556441
+116,Engineering,Male,College,100495.44066534947
+117,Engineering,Male,High School,86087.15410825476
+118,Engineering,Female,High School,87807.86384787974
+119,Management,Male,High School,93879.21767439057
+120,Administration,Female,College,88254.47588176216
+121,Operations,Male,PhD,123678.32844464916
+122,Sales,Female,Masters,75319.12088356371
+123,Operations,Male,PhD,56547.025383990986
+124,Sales,Male,PhD,103427.59919294613
+125,Management,Male,PhD,143632.48803031823
+126,Engineering,Male,College,109637.13003400958
+127,Operations,Male,PhD,67969.29051269391
+128,Sales,Female,PhD,111277.20912840425
+129,Management,Male,College,84114.01058788545
+130,Operations,Female,High School,82042.06253264024
+131,Management,Female,Masters,106534.27576068195
+132,Operations,Male,Masters,121242.91120486584
+133,Sales,Male,College,73186.56733570503
+134,Administration,Male,College,71307.3270272855
+135,Management,Female,College,105141.8088199837
+136,Engineering,Female,College,85241.33578336152
+137,Management,Male,Masters,71518.17879098043
+138,Sales,Female,PhD,95676.27657679227
+139,Sales,Male,PhD,98936.9427465346
+140,Engineering,Male,Masters,125852.75977913222
+141,Administration,Female,College,103415.11635752318
+142,Operations,Female,College,126553.05802586042
+143,Administration,Male,College,96911.11398241577
+144,Management,Male,High School,123726.97324582467
+145,Administration,Female,High School,103722.25093816049
+146,Management,Female,PhD,116421.68888841673
+147,Management,Male,PhD,79171.18464092883
+148,Operations,Female,PhD,106427.13207008694
+149,Engineering,Female,High School,89843.4361246514
+150,Operations,Female,Masters,101900.27171974594
+151,Operations,Male,High School,74004.10023523096
+152,Sales,Female,College,124295.09942589125
+153,Operations,Male,PhD,145807.04869312412
+154,Management,Male,Masters,160094.53860175263
+155,Engineering,Female,College,100240.82470084578
+156,Operations,Male,Masters,130661.2657332957
+157,Operations,Male,Masters,100796.6156626273
+158,Sales,Female,High School,125305.64764998292
+159,Operations,Male,PhD,111066.93969082435
+160,Operations,Male,High School,158475.53470397711
+161,Administration,Female,PhD,79790.75046037699
+162,Sales,Female,College,113301.70016831721
+163,Sales,Female,Masters,45776.877219572816
+164,Administration,Female,High School,93235.97473641012
+165,Management,Female,College,99779.24744912777
+166,Administration,Male,Masters,97618.99118008517
+167,Sales,Female,High School,37517.6584038713
+168,Sales,Male,College,88155.9452972448
+169,Engineering,Male,PhD,106182.26392574125
+170,Sales,Male,College,122865.79442123366
+171,Management,Male,PhD,114998.28721612765
+172,Sales,Female,PhD,95373.25504216531
+173,Management,Male,College,89625.23015207118
+174,Administration,Female,College,58939.97487886959
+175,Management,Male,High School,142437.4092765964
+176,Sales,Female,High School,83699.20655871098
+177,Operations,Male,High School,95790.64989597096
+178,Operations,Female,High School,100431.767038884
+179,Sales,Male,Masters,109723.0370108636
+180,Management,Male,Masters,109242.4130650034
+181,Management,Male,High School,84642.58098887168
+182,Operations,Female,College,71068.57609756482
+183,Management,Female,PhD,83042.4520877533
+184,Administration,Male,PhD,97435.08712634572
+185,Operations,Female,High School,101795.82363103407
+186,Management,Female,High School,107042.62410760883
+187,Management,Male,PhD,119663.3479082877
+188,Management,Female,High School,92587.67408207334
+189,Administration,Male,PhD,110939.02613900005
+190,Management,Male,College,93571.50708101859
+191,Operations,Female,High School,70121.28376114545
+192,Operations,Male,PhD,74557.62874411177
+193,Administration,Male,PhD,62909.73246912922
+194,Engineering,Female,College,101618.82364725175
+195,Engineering,Male,PhD,111216.595984765
+196,Operations,Male,Masters,164910.79833819863
+197,Management,Male,College,124461.48393472814
+198,Operations,Male,PhD,77233.93076533733
+199,Engineering,Male,PhD,128914.40380270165
+200,Sales,Male,College,133463.86424688445
+201,Management,Female,Masters,113277.26489989908
+202,Sales,Female,High School,65442.96563076488
+203,Administration,Male,College,70974.32806661267
+204,Engineering,Male,Masters,119680.88613149025
+205,Operations,Male,Masters,132731.2556953706
+206,Sales,Male,Masters,114385.09538586435
+207,Engineering,Female,College,71839.9331992004
+208,Engineering,Male,College,113199.19382628045
+209,Engineering,Female,PhD,76369.94787250969
+210,Administration,Male,High School,105308.09083093533
+211,Engineering,Male,College,98360.4826804026
+212,Management,Male,High School,99800.63249017332
+213,Administration,Male,College,56836.21783227113
+214,Sales,Male,College,130466.5533684812
+215,Management,Female,PhD,118487.57870156328
+216,Management,Female,High School,33348.579027520726
+217,Operations,Female,PhD,66223.77680155903
+218,Operations,Female,High School,96332.86748613052
+219,Operations,Female,Masters,80911.33825647373
+220,Sales,Male,Masters,85914.42401826059
+221,Operations,Male,College,102548.53286843679
+222,Sales,Female,College,76857.4229731862
+223,Sales,Male,Masters,70314.91608112313
+224,Operations,Female,High School,58577.744611073635
+225,Operations,Female,PhD,96343.08838729975
+226,Administration,Female,High School,93780.74179844931
+227,Operations,Male,Masters,92091.18143732785
+228,Sales,Female,PhD,47091.7216690817
+229,Operations,Male,High School,106350.9002078822
+230,Engineering,Female,Masters,79066.6069506318
+231,Administration,Male,Masters,94010.44516658396
+232,Sales,Male,College,99155.20792668987
+233,Management,Male,College,97703.0772709939
+234,Sales,Male,PhD,127780.64212913832
+235,Engineering,Male,PhD,103737.27404592441
+236,Sales,Male,Masters,140995.72956112446
+237,Administration,Male,College,110519.87264077221
+238,Administration,Female,College,66143.82344159797
+239,Administration,Male,PhD,114957.06199125624
+240,Engineering,Male,Masters,68576.8127745249
+241,Management,Female,College,110528.898843686
+242,Administration,Male,Masters,98747.06414081554
+243,Administration,Female,College,49540.55365486446
+244,Engineering,Female,College,51460.489185665334
+245,Administration,Male,High School,57837.79454970254
+246,Engineering,Male,High School,102643.65753401209
+247,Sales,Female,Masters,71957.68345354217
+248,Administration,Male,Masters,84868.51082822685
+249,Engineering,Female,High School,60495.63768892248
+250,Operations,Male,PhD,109072.7764160809
+251,Management,Female,College,92457.50657096818
+252,Engineering,Male,Masters,134511.51067902218
+253,Operations,Male,PhD,65205.21328854377
+254,Operations,Male,PhD,120156.64476759541
+255,Engineering,Male,Masters,112864.13354525712
+256,Operations,Male,High School,118523.053638083
+257,Engineering,Male,PhD,142462.4022719048
+258,Operations,Male,PhD,71147.89954301575
+259,Engineering,Female,PhD,92817.17890385566
+260,Engineering,Female,College,83780.58766699884
+261,Operations,Female,High School,71192.46628393934
+262,Engineering,Female,Masters,111571.51163070554
+263,Engineering,Male,College,138147.91632630007
+264,Administration,Male,Masters,47256.33951980858
+265,Engineering,Male,College,87247.61277326543
+266,Sales,Male,High School,82846.3551688038
+267,Administration,Female,Masters,106638.60783090674
+268,Administration,Male,PhD,72073.54577674973
+269,Operations,Male,PhD,106073.41475577923
+270,Administration,Female,High School,91532.95275763527
+271,Management,Male,College,99578.78442847377
+272,Engineering,Female,High School,65836.62218794174
+273,Operations,Female,College,106728.84373662125
+274,Administration,Male,Masters,94212.2551505301
+275,Engineering,Male,High School,130287.54656918717
+276,Engineering,Female,Masters,91632.7456448122
+277,Administration,Male,College,94676.48962804895
+278,Operations,Female,High School,41387.95150224613
+279,Sales,Female,College,57305.615306061256
+280,Administration,Male,College,119964.56488439236
+281,Operations,Male,Masters,86525.32005054424
+282,Management,Male,High School,77204.61207623665
+283,Operations,Male,College,150095.52629166213
+284,Operations,Male,PhD,104774.11913976805
+285,Management,Female,High School,79379.98842474275
+286,Administration,Male,High School,70268.6365278654
+287,Sales,Female,High School,123419.82226056122
+288,Sales,Female,College,77839.19365873694
+289,Engineering,Male,PhD,90553.51683677683
+290,Administration,Male,College,83009.35039403907
+291,Operations,Male,High School,143902.1559958059
+292,Administration,Female,Masters,87324.07580031455
+293,Sales,Male,PhD,75611.71796448775
+294,Administration,Female,Masters,108510.0245781517
+295,Sales,Male,High School,105543.27908454346
+296,Operations,Female,High School,50433.28664422506
+297,Sales,Female,Masters,101195.50437303689
+298,Operations,Male,Masters,68257.31936200323
+299,Sales,Male,Masters,92370.44276307643
+300,Operations,Male,Masters,67811.24998117826
+301,Engineering,Male,PhD,115379.35675188802
+302,Operations,Male,College,64230.07704377553
+303,Sales,Female,High School,111094.42363092139
+304,Operations,Female,High School,87823.8149643929
+305,Administration,Male,Masters,128043.36338483907
+306,Engineering,Male,Masters,76365.82018141274
+307,Engineering,Female,Masters,82230.26052645355
+308,Engineering,Male,PhD,77261.29029214267
+309,Operations,Female,High School,114590.65895935285
+310,Administration,Male,Masters,48198.78084933014
+311,Management,Male,Masters,115359.93410001024
+312,Management,Female,Masters,114315.22484962738
+313,Management,Female,PhD,104086.03737270506
+314,Operations,Male,College,91035.88762704005
+315,Management,Male,High School,78923.00154084529
+316,Sales,Male,Masters,90503.64920012637
+317,Operations,Male,College,75665.89790310863
+318,Management,Female,College,118987.13234269494
+319,Management,Female,High School,85408.94521553162
+320,Sales,Female,College,115375.74345265285
+321,Engineering,Male,Masters,63465.81250065351
+322,Administration,Male,College,61412.8764816463
+323,Management,Female,College,67066.09554469548
+324,Management,Female,Masters,54109.05095423455
+325,Sales,Female,College,125533.07066190429
+326,Engineering,Male,PhD,105868.13258341294
+327,Engineering,Female,PhD,91518.91500967681
+328,Sales,Female,High School,62085.43383773594
+329,Operations,Female,High School,151748.86975141263
+330,Operations,Female,Masters,58452.63514400784
+331,Administration,Female,Masters,88045.33287569926
+332,Sales,Female,College,108661.9034839169
+333,Operations,Male,High School,74855.02395099848
+334,Sales,Female,Masters,33226.45105060146
+335,Sales,Male,College,88653.8622399875
+336,Engineering,Male,College,88666.4599405348
+337,Administration,Female,College,124768.16341528352
+338,Sales,Female,High School,81458.51481672331
+339,Sales,Male,PhD,54868.81117210395
+340,Operations,Male,PhD,77256.12692118525
+341,Operations,Female,Masters,99812.64288473452
+342,Administration,Female,PhD,67176.3971646899
+343,Operations,Female,PhD,106326.0211982705
+344,Management,Male,High School,129095.22115031607
+345,Management,Female,College,100391.84576021023
+346,Administration,Male,High School,80709.50873103511
+347,Management,Male,College,115390.99292203094
+348,Operations,Male,PhD,137165.20617144482
+349,Administration,Female,College,82892.18700740075
+350,Operations,Female,Masters,77499.61397213122
+351,Engineering,Female,College,76910.43939474454
+352,Administration,Female,Masters,68336.7781790006
+353,Operations,Female,College,94354.37822077812
+354,Management,Male,PhD,102359.7171988401
+355,Sales,Male,High School,74026.60504137356
+356,Engineering,Female,High School,88386.74270539945
+357,Management,Female,Masters,60650.36619760565
+358,Engineering,Female,PhD,54582.405491191654
+359,Engineering,Male,Masters,118309.48988748797
+360,Operations,Male,Masters,56167.25201935403
+361,Management,Male,High School,109481.2057931995
+362,Engineering,Male,College,76412.87802017495
+363,Administration,Female,Masters,67504.44515643304
+364,Administration,Female,High School,92593.45614301878
+365,Operations,Male,Masters,94957.40228556537
+366,Sales,Female,Masters,110934.55395109359
+367,Engineering,Male,College,171419.11701515288
+368,Sales,Male,PhD,130349.00236278915
+369,Administration,Female,College,100269.85629357945
+370,Operations,Female,PhD,53068.29492679653
+371,Engineering,Female,PhD,139682.5131808382
+372,Management,Female,College,101632.49027438463
+373,Engineering,Male,College,68657.53678543528
+374,Sales,Female,High School,84913.72684529678
+375,Engineering,Male,College,116636.30762565699
+376,Sales,Female,High School,69363.51024164692
+377,Management,Male,Masters,96953.09452212244
+378,Sales,Male,Masters,70196.19511063576
+379,Operations,Female,High School,45440.18209891509
+380,Operations,Female,Masters,81342.3089085668
+381,Sales,Female,PhD,94724.61879968025
+382,Administration,Male,PhD,124529.4426696125
+383,Administration,Male,Masters,108868.44851483555
+384,Management,Female,High School,98705.20963212606
+385,Sales,Male,High School,129718.89995303488
+386,Operations,Male,Masters,91164.97646202694
+387,Sales,Male,High School,114660.22887683925
+388,Engineering,Male,PhD,91098.38235737241
+389,Administration,Male,Masters,94936.03878084882
+390,Management,Male,College,108403.01396088487
+391,Operations,Male,Masters,59230.97342024432
+392,Sales,Male,High School,87441.47298379442
+393,Management,Female,High School,88853.22963534875
+394,Engineering,Male,Masters,74552.99768333476
+395,Operations,Male,PhD,47415.37045279776
+396,Engineering,Female,High School,82472.82696781994
+397,Sales,Male,High School,53225.86273053963
+398,Sales,Male,High School,142339.82888518937
+399,Management,Female,College,100621.13727660877
+400,Sales,Male,PhD,86303.8810098558
+401,Operations,Male,PhD,112164.78528027509
+402,Engineering,Female,High School,90371.45268897084
+403,Operations,Female,Masters,88039.57641259488
+404,Administration,Male,College,94396.40151149669
+405,Engineering,Male,College,129475.39385626618
+406,Sales,Female,College,59214.45728297197
+407,Management,Male,College,83356.38210297178
+408,Sales,Female,College,88514.36680497912
+409,Management,Male,PhD,130307.66652079184
+410,Engineering,Male,High School,66422.92385900552
+411,Management,Male,College,114491.78804072458
+412,Operations,Male,High School,102825.00956789266
+413,Sales,Male,Masters,128813.78188647238
+414,Operations,Female,College,103264.57167086522
+415,Operations,Male,Masters,95522.14362505436
+416,Operations,Male,Masters,144658.94914363147
+417,Management,Male,PhD,128605.59318480632
+418,Sales,Male,Masters,83150.86321849082
+419,Management,Female,College,102952.49003316
+420,Administration,Female,College,97033.35685501306
+421,Operations,Male,College,63842.94820593961
+422,Administration,Male,Masters,80616.40687890607
+423,Management,Male,Masters,132295.49284482282
+424,Management,Male,College,74065.34856070051
+425,Engineering,Male,College,89394.17274297094
+426,Sales,Male,High School,143013.792466948
+427,Administration,Male,High School,82666.37197550457
+428,Management,Male,High School,129708.16930899312
+429,Operations,Male,PhD,97606.53273162954
+430,Engineering,Male,High School,104542.05939315852
+431,Operations,Female,High School,46808.90048137506
+432,Sales,Female,PhD,82128.47742454303
+433,Management,Male,High School,56370.30732149251
+434,Administration,Male,Masters,95040.78221641137
+435,Administration,Female,PhD,75627.10606567087
+436,Operations,Female,PhD,105502.87896300765
+437,Management,Female,Masters,125139.9254398434
+438,Administration,Male,PhD,111029.3174512568
+439,Engineering,Female,College,51414.7745221694
+440,Engineering,Female,High School,59759.54075480685
+441,Management,Male,PhD,138517.48081091855
+442,Engineering,Female,College,112746.4909033857
+443,Sales,Male,Masters,137821.72203720018
+444,Sales,Male,High School,67513.31218126733
+445,Operations,Female,High School,109215.80050972229
+446,Sales,Male,PhD,86754.795621841
+447,Sales,Female,High School,84858.00073318467
+448,Management,Male,Masters,66702.78999037527
+449,Administration,Male,College,123803.15408485595
+450,Operations,Male,Masters,63259.085970783366
+451,Operations,Male,PhD,71812.59476817146
+452,Sales,Male,College,87043.0961340137
+453,Management,Female,College,80766.55451329009
+454,Operations,Male,PhD,110371.14598188183
+455,Administration,Male,High School,80784.7437551794
+456,Management,Female,PhD,33596.80854165166
+457,Management,Female,PhD,131520.23273617344
+458,Operations,Male,Masters,107059.8714968834
+459,Sales,Female,Masters,90977.57509422813
+460,Sales,Female,Masters,115183.768428514
+461,Operations,Female,High School,75296.04565883208
+462,Administration,Female,College,93869.302796615
+463,Operations,Female,High School,83729.9824513078
+464,Sales,Female,Masters,62513.356765878394
+465,Administration,Female,High School,102244.65185233072
+466,Sales,Female,College,52889.697798176596
+467,Operations,Male,Masters,69671.06051258232
+468,Sales,Male,Masters,92820.05674206745
+469,Management,Female,PhD,87143.0039443726
+470,Management,Male,Masters,125730.52419543153
+471,Management,Male,Masters,90481.92285045629
+472,Management,Female,Masters,120125.7004974412
+473,Administration,Male,High School,104968.87504973725
+474,Administration,Female,PhD,120752.25410096806
+475,Operations,Female,High School,101698.67977036392
+476,Management,Male,PhD,126580.07651278272
+477,Operations,Male,Masters,83788.96353973652
+478,Administration,Female,Masters,75379.1378857546
+479,Operations,Female,College,110672.84293490752
+480,Engineering,Female,PhD,60370.990860732745
+481,Operations,Male,PhD,73249.15992076568
+482,Operations,Male,PhD,145129.33036827028
+483,Administration,Male,High School,83552.70622158158
+484,Administration,Male,High School,125733.36090647583
+485,Operations,Female,Masters,119150.90881709925
+486,Operations,Male,High School,91813.43090233448
+487,Operations,Male,PhD,104033.86759898935
+488,Operations,Male,Masters,132348.2323143992
+489,Management,Female,College,83584.28349768475
+490,Sales,Male,High School,64172.6129810915
+491,Administration,Female,High School,44498.99899427382
+492,Engineering,Female,Masters,126771.53586551943
+493,Sales,Female,PhD,92573.6033956938
+494,Sales,Female,College,153114.15748116112
+495,Engineering,Female,College,66778.33239919691
+496,Sales,Female,Masters,101300.29087467634
+497,Management,Female,College,58900.84315224209
+498,Management,Male,PhD,71120.7974831198
+499,Operations,Female,PhD,94649.47757652811
+500,Management,Female,Masters,98977.93491973948
+501,Administration,Female,Masters,64029.40944853831
+502,Management,Female,PhD,137087.09113729736
+503,Sales,Female,Masters,89720.59630161038
+504,Operations,Male,Masters,95995.73082511588
+505,Administration,Female,High School,57015.16125871589
+506,Administration,Female,Masters,83204.17991670311
+507,Management,Male,PhD,112215.77420998605
+508,Sales,Male,PhD,127190.56514445905
+509,Engineering,Male,High School,84759.21201613432
+510,Administration,Female,Masters,105248.94503828768
+511,Sales,Male,High School,97003.25273544963
+512,Sales,Male,High School,89129.68729880695
+513,Sales,Male,Masters,85332.69619700895
+514,Management,Male,College,73507.94349416794
+515,Administration,Male,College,90936.21862970009
+516,Operations,Female,Masters,119968.41464820768
+517,Sales,Female,College,107977.81548209226
+518,Sales,Female,Masters,95000.15026397248
+519,Operations,Female,Masters,103461.12766468945
+520,Management,Male,Masters,88193.30768523848
+521,Operations,Male,Masters,77937.36298119329
+522,Administration,Male,PhD,68995.44985566266
+523,Sales,Male,Masters,82342.37742215111
+524,Sales,Male,Masters,75266.24130444253
+525,Operations,Female,College,78740.1554637051
+526,Operations,Female,Masters,78704.59202925931
+527,Sales,Female,High School,88214.30481500509
+528,Administration,Male,College,83366.98154480431
+529,Sales,Male,High School,74561.81597363796
+530,Operations,Male,PhD,122568.34558149874
+531,Sales,Female,PhD,99238.00910428778
+532,Management,Male,High School,112567.62060748675
+533,Management,Male,PhD,66732.35625813708
+534,Administration,Female,PhD,107867.84181977036
+535,Engineering,Male,High School,44140.41124609134
+536,Sales,Male,PhD,54675.56501280843
+537,Operations,Male,Masters,110586.72301453262
+538,Management,Female,College,88707.52939030388
+539,Sales,Male,Masters,78240.64296245431
+540,Engineering,Male,PhD,86593.13233493849
+541,Sales,Male,College,99422.29627494093
+542,Administration,Female,PhD,79271.59740369076
+543,Management,Male,College,65180.76408771295
+544,Engineering,Male,High School,110817.53030355841
+545,Administration,Female,Masters,147528.66159132792
+546,Sales,Female,High School,94325.26799779483
+547,Sales,Female,Masters,70702.6060185764
+548,Operations,Female,College,60861.59677009693
+549,Operations,Female,PhD,123281.519120489
+550,Engineering,Female,Masters,112847.09566134386
+551,Sales,Female,Masters,62660.46028756411
+552,Operations,Male,High School,111317.841597015
+553,Management,Male,College,75081.94747140995
+554,Sales,Male,College,88769.43164002325
+555,Engineering,Male,High School,77685.85096991155
+556,Operations,Male,College,73944.52019372351
+557,Sales,Female,Masters,56170.93381412372
+558,Operations,Male,PhD,115933.51039446339
+559,Management,Female,PhD,71997.23358664563
+560,Administration,Female,High School,87053.04645460624
+561,Administration,Male,Masters,81858.4083745836
+562,Administration,Male,College,91771.90193896194
+563,Operations,Male,PhD,64971.59356431044
+564,Operations,Female,High School,92935.25604111097
+565,Administration,Male,College,64099.88439443903
+566,Administration,Male,Masters,84330.13448294057
+567,Management,Male,Masters,90528.99626551034
+568,Operations,Male,PhD,98306.40900005434
+569,Engineering,Female,Masters,55213.403083023295
+570,Operations,Female,College,61375.60206879856
+571,Management,Female,High School,96683.28568313611
+572,Sales,Female,High School,79466.77410369515
+573,Operations,Female,PhD,73542.97666682153
+574,Engineering,Female,High School,156594.68988841373
+575,Engineering,Male,High School,89483.46278732031
+576,Administration,Male,College,131887.9403179552
+577,Management,Male,PhD,42694.612655473764
+578,Sales,Male,College,124024.38214789366
+579,Sales,Male,Masters,96646.06557076909
+580,Engineering,Female,PhD,126646.96955636457
+581,Administration,Male,PhD,104833.29324585029
+582,Engineering,Female,College,91446.93146165698
+583,Engineering,Male,Masters,111423.81058857591
+584,Sales,Male,PhD,108197.21530536798
+585,Engineering,Female,High School,136454.31334057116
+586,Engineering,Male,PhD,124712.83585955159
+587,Operations,Female,College,86403.4682674707
+588,Operations,Male,Masters,100541.52353128395
+589,Engineering,Male,High School,77248.25227033808
+590,Engineering,Male,PhD,78868.62342870684
+591,Administration,Female,Masters,80240.00795042685
+592,Sales,Female,High School,45188.07503731457
+593,Operations,Male,College,129366.11747441605
+594,Sales,Female,PhD,39483.92367335291
+595,Sales,Female,College,81029.51960781259
+596,Management,Female,College,62366.89302152198
+597,Management,Female,High School,84321.9353873055
+598,Management,Female,High School,147005.8566097409
+599,Sales,Male,PhD,101554.00256344953
+600,Administration,Female,PhD,87595.31118760876
+601,Administration,Female,College,98683.4665632703
+602,Operations,Male,Masters,69555.50930805456
+603,Operations,Male,Masters,137704.3088718949
+604,Management,Female,College,94812.66286300651
+605,Engineering,Female,PhD,150728.03438376696
+606,Operations,Female,PhD,96104.81297478298
+607,Management,Male,Masters,104239.11856024062
+608,Engineering,Female,Masters,68761.3911910243
+609,Sales,Male,PhD,79161.28191892385
+610,Administration,Male,Masters,123950.35441182596
+611,Administration,Female,College,79098.79375447931
+612,Management,Female,College,70296.36574626772
+613,Administration,Male,Masters,86254.28083249829
+614,Management,Male,PhD,53252.41554307028
+615,Management,Male,Masters,129601.16650866842
+616,Sales,Male,College,117646.80734667122
+617,Operations,Female,PhD,68570.3829870617
+618,Administration,Male,High School,81061.54641705993
+619,Management,Female,College,103356.90343021706
+620,Sales,Male,PhD,100541.53131341992
+621,Operations,Male,PhD,77533.76722637282
+622,Engineering,Female,Masters,99508.54437831395
+623,Engineering,Female,High School,96853.66032548122
+624,Engineering,Female,PhD,91316.93854170918
+625,Engineering,Female,High School,43391.498826555406
+626,Engineering,Female,Masters,130213.98224491603
+627,Engineering,Male,High School,138634.26613107062
+628,Operations,Female,Masters,52307.50098215807
+629,Operations,Male,Masters,95226.13872150675
+630,Sales,Female,College,76107.84328853109
+631,Operations,Female,Masters,101220.86870636052
+632,Administration,Female,High School,81036.76597373458
+633,Administration,Male,High School,67951.32223338299
+634,Sales,Female,PhD,97699.01930730234
+635,Operations,Female,PhD,121170.61038039514
+636,Engineering,Female,Masters,126054.9693370701
+637,Management,Male,PhD,57840.71638823335
+638,Management,Male,High School,88671.14567464324
+639,Sales,Male,High School,92606.54312888288
+640,Management,Female,PhD,113072.50937521887
+641,Engineering,Male,PhD,113726.06179697358
+642,Operations,Female,PhD,106810.9148272408
+643,Sales,Male,Masters,140420.03424271644
+644,Engineering,Male,PhD,95180.58563477216
+645,Operations,Female,College,84343.34722233236
+646,Sales,Female,College,98133.2119062161
+647,Operations,Male,PhD,131651.48336911332
+648,Sales,Male,Masters,71696.60740615621
+649,Administration,Male,PhD,86408.21182806623
+650,Engineering,Female,PhD,140281.8855942468
+651,Management,Male,High School,88229.40633975949
+652,Sales,Male,College,147090.79475981268
+653,Operations,Male,College,112854.34364835535
+654,Engineering,Male,Masters,82846.92770988795
+655,Management,Female,Masters,82977.01038709214
+656,Operations,Male,PhD,97223.91344655129
+657,Operations,Male,High School,90789.19775296119
+658,Engineering,Female,Masters,83422.28074404194
+659,Engineering,Male,College,101346.81776397972
+660,Operations,Female,PhD,90686.5852862461
+661,Management,Male,PhD,96626.66578592303
+662,Management,Female,High School,61512.5562902205
+663,Sales,Male,High School,116550.72222350279
+664,Engineering,Male,PhD,74911.08993430994
+665,Operations,Male,Masters,90624.7442782482
+666,Engineering,Female,College,98616.31138519099
+667,Management,Male,College,80323.10403841808
+668,Engineering,Male,PhD,79372.30299962377
+669,Sales,Male,Masters,114035.89713503537
+670,Management,Female,High School,57610.783707596434
+671,Engineering,Female,College,65022.44178457021
+672,Operations,Male,PhD,76528.37046316272
+673,Administration,Female,High School,43952.78468314084
+674,Operations,Male,College,118581.6434116216
+675,Management,Male,PhD,131937.34714764703
+676,Operations,Male,PhD,114700.61095202452
+677,Operations,Female,PhD,64376.11359146254
+678,Engineering,Female,Masters,80545.69061423425
+679,Sales,Female,PhD,67744.33707617839
+680,Operations,Male,College,96463.49283521723
+681,Sales,Male,High School,106624.9394774437
+682,Sales,Female,PhD,68614.34473394761
+683,Sales,Male,High School,121707.16607228646
+684,Engineering,Male,High School,123530.20120410481
+685,Engineering,Male,High School,85710.27470981874
+686,Engineering,Female,Masters,61844.64393466193
+687,Administration,Male,PhD,167970.15165896804
+688,Sales,Male,Masters,67567.0917520069
+689,Sales,Female,Masters,88847.26589761657
+690,Management,Male,College,103116.68744831906
+691,Administration,Male,PhD,86065.7870246352
+692,Management,Female,Masters,113137.16575134319
+693,Management,Female,College,124925.08898591508
+694,Sales,Male,PhD,124667.23839173971
+695,Administration,Male,Masters,78391.37074592688
+696,Management,Male,PhD,97997.74724260817
+697,Administration,Male,High School,99690.07334461031
+698,Sales,Male,High School,109241.1332671471
+699,Management,Male,High School,85491.49996734694
+700,Operations,Female,High School,49784.20252350082
+701,Sales,Female,College,96020.95461467833
+702,Sales,Male,High School,65912.12040124123
+703,Sales,Male,PhD,97905.2235736799
+704,Management,Male,PhD,94487.47730414057
+705,Management,Female,Masters,41653.43095314481
+706,Management,Male,High School,71015.93340051184
+707,Engineering,Female,College,128722.22222379687
+708,Sales,Female,PhD,108185.61814862365
+709,Sales,Male,PhD,105162.49186469773
+710,Sales,Male,College,100753.65343655519
+711,Operations,Male,PhD,72165.98955712531
+712,Operations,Female,Masters,60179.774890841196
+713,Sales,Female,PhD,106640.52040190918
+714,Operations,Female,Masters,90665.41331953648
+715,Administration,Male,Masters,130672.97484486958
+716,Engineering,Male,PhD,104693.88704498226
+717,Management,Female,PhD,130782.7261623519
+718,Engineering,Female,Masters,61313.47744293859
+719,Administration,Male,High School,125350.98394780287
+720,Management,Female,College,144843.68665299885
+721,Operations,Male,High School,108827.75835639027
+722,Administration,Female,High School,113085.89260713106
+723,Engineering,Male,College,76494.88512332099
+724,Engineering,Male,Masters,124754.69755679135
+725,Administration,Male,PhD,121526.0475238326
+726,Management,Female,College,104599.45240709283
+727,Administration,Female,PhD,107148.89189153726
+728,Management,Female,High School,28142.545553187352
+729,Engineering,Male,Masters,51034.489970200106
+730,Operations,Male,Masters,126911.02726223957
+731,Sales,Male,College,173487.45847590212
+732,Management,Female,College,83819.25587126912
+733,Engineering,Male,High School,97094.98199764611
+734,Administration,Female,Masters,67798.00306771885
+735,Sales,Female,High School,92121.8201217543
+736,Operations,Male,Masters,101564.91608555065
+737,Engineering,Male,PhD,132146.12307219868
+738,Management,Female,High School,77809.1532346416
+739,Sales,Male,College,51352.154574434026
+740,Administration,Female,Masters,93618.51710548978
+741,Sales,Female,PhD,79362.77427774636
+742,Management,Female,PhD,105302.54347860851
+743,Management,Male,High School,70492.35919323104
+744,Management,Male,PhD,108769.33778258968
+745,Management,Female,Masters,89712.24670008424
+746,Operations,Female,Masters,68746.10567417988
+747,Administration,Female,High School,137400.1175628473
+748,Operations,Female,High School,99419.88536483828
+749,Administration,Male,PhD,75916.85245757361
+750,Operations,Female,PhD,67493.75165563052
+751,Operations,Female,PhD,106529.5873472338
+752,Operations,Male,High School,88719.18603352919
+753,Sales,Male,Masters,113562.49111639625
+754,Operations,Female,College,110985.26778588849
+755,Sales,Male,College,58966.91319675173
+756,Administration,Female,Masters,59111.49280804176
+757,Administration,Male,High School,123118.36226785423
+758,Management,Male,Masters,87984.32859034682
+759,Engineering,Male,College,79962.0019424604
+760,Administration,Male,High School,166638.2936081284
+761,Administration,Male,Masters,61486.44771845398
+762,Operations,Female,PhD,120446.54103942402
+763,Management,Female,PhD,88788.23352954746
+764,Management,Female,College,75018.96076530212
+765,Sales,Male,Masters,68880.64601609643
+766,Operations,Female,Masters,112592.67747615624
+767,Administration,Female,College,75870.10098135544
+768,Management,Male,High School,103195.93652439181
+769,Operations,Male,PhD,94780.96124116966
+770,Sales,Male,PhD,145084.14592897706
+771,Sales,Male,PhD,152573.2669001321
+772,Management,Male,High School,82709.39218346037
+773,Management,Male,High School,133648.31449867954
+774,Operations,Male,High School,106290.81830528738
+775,Management,Male,High School,125593.11363543465
+776,Operations,Male,High School,69792.42293518352
+777,Operations,Female,PhD,93367.59809090981
+778,Administration,Male,High School,78597.17191353034
+779,Administration,Female,Masters,95279.5925094397
+780,Administration,Male,High School,84677.74592662783
+781,Operations,Male,High School,107041.59467362986
+782,Management,Male,High School,123380.38815422023
+783,Engineering,Female,PhD,95090.85076313413
+784,Sales,Male,Masters,115973.48231712618
+785,Engineering,Female,College,149789.07429123973
+786,Management,Female,PhD,119501.07500344256
+787,Operations,Female,PhD,75338.80796968147
+788,Management,Female,College,92623.67881599294
+789,Management,Female,High School,81897.1077760571
+790,Administration,Female,High School,81357.15204767209
+791,Engineering,Male,High School,58131.367321564954
+792,Administration,Female,PhD,64565.19758377543
+793,Engineering,Female,PhD,78873.83722890975
+794,Operations,Male,Masters,69617.47984032406
+795,Management,Female,High School,122879.24929510316
+796,Management,Male,College,48808.91604063154
+797,Management,Female,College,133177.40454501112
+798,Administration,Male,Masters,114532.5341296529
+799,Operations,Male,PhD,109636.62929290574
+800,Operations,Female,PhD,129832.08551000232
+801,Sales,Male,Masters,74703.79777057045
+802,Operations,Male,High School,110421.99242421406
+803,Engineering,Female,Masters,103166.60646635272
+804,Operations,Male,High School,109790.08307531294
+805,Management,Female,College,103173.42838276246
+806,Administration,Female,PhD,102471.90568011375
+807,Operations,Female,High School,38453.06802711547
+808,Sales,Male,PhD,108006.25964445325
+809,Sales,Female,Masters,78911.94021235197
+810,Administration,Male,Masters,101966.30838459826
+811,Operations,Female,PhD,79449.74520508022
+812,Sales,Female,High School,82013.21653755556
+813,Administration,Female,PhD,76022.40698294439
+814,Management,Male,High School,107064.64443642089
+815,Engineering,Male,College,40289.643731492106
+816,Management,Female,College,140696.92814203625
+817,Sales,Female,Masters,66256.42764761539
+818,Administration,Female,Masters,101379.78831048244
+819,Management,Female,College,87406.68774106314
+820,Operations,Male,Masters,97789.05099611184
+821,Engineering,Male,College,78998.90168698857
+822,Operations,Female,PhD,79711.66492304263
+823,Sales,Female,High School,74975.9648021993
+824,Engineering,Male,PhD,75701.73983330322
+825,Administration,Male,Masters,109003.63712826151
+826,Management,Female,PhD,78114.79199806988
+827,Management,Male,College,59367.070046725275
+828,Administration,Female,Masters,83893.60892248295
+829,Sales,Male,Masters,115032.23341445994
+830,Management,Female,College,33349.030986255224
+831,Operations,Male,Masters,93061.72173016165
+832,Sales,Male,High School,112534.60162619283
+833,Engineering,Male,Masters,70941.84068556779
+834,Engineering,Male,PhD,125844.38069310454
+835,Sales,Male,PhD,107254.98008801661
+836,Sales,Male,College,103305.26345254798
+837,Management,Female,Masters,89599.24071185436
+838,Operations,Female,High School,87482.01618705809
+839,Sales,Male,College,112500.72853847839
+840,Sales,Male,PhD,104154.57345988556
+841,Management,Female,Masters,47396.97097162897
+842,Management,Female,College,106774.60722837206
+843,Sales,Male,Masters,150971.4520056131
+844,Operations,Female,College,70990.00136721224
+845,Management,Female,Masters,74678.73885953127
+846,Management,Female,PhD,111293.41542734829
+847,Engineering,Female,Masters,63391.95820358195
+848,Engineering,Female,Masters,77436.36550928614
+849,Sales,Male,PhD,106558.76774393798
+850,Sales,Male,High School,98808.06916284826
+851,Management,Female,PhD,82883.38285769094
+852,Management,Female,Masters,114125.57234844205
+853,Administration,Male,College,64770.745272230735
+854,Management,Female,College,98922.26382480701
+855,Administration,Female,PhD,56723.570027462694
+856,Engineering,Male,Masters,67595.56053131404
+857,Engineering,Male,High School,103714.27269742922
+858,Operations,Female,Masters,108453.55312118707
+859,Sales,Male,Masters,82407.52527392286
+860,Management,Male,College,95393.70318093522
+861,Operations,Male,High School,128794.4867027266
+862,Operations,Female,Masters,43092.64741475277
+863,Administration,Female,PhD,119622.05799553942
+864,Management,Female,College,126363.22048755022
+865,Operations,Female,Masters,50307.97264683968
+866,Operations,Male,College,114656.18192859685
+867,Engineering,Male,High School,92342.98524612439
+868,Sales,Male,College,106913.99916605013
+869,Management,Male,College,106568.04994147144
+870,Engineering,Male,High School,93896.26481983082
+871,Operations,Male,Masters,65673.3011204238
+872,Engineering,Male,PhD,92029.91481788624
+873,Administration,Female,High School,79926.98131325757
+874,Administration,Male,College,59476.42071557814
+875,Operations,Male,Masters,77894.33458525076
+876,Administration,Male,College,80818.77084116294
+877,Management,Male,PhD,111642.18167837977
+878,Engineering,Female,High School,97776.14643858242
+879,Management,Female,High School,80347.98079480656
+880,Engineering,Female,High School,105260.04297815151
+881,Engineering,Female,PhD,53817.08866190061
+882,Operations,Female,High School,104213.60867051997
+883,Operations,Male,Masters,126466.43452978444
+884,Sales,Female,High School,70233.867990316
+885,Administration,Male,Masters,68975.38137670801
+886,Operations,Male,PhD,125368.17168043164
+887,Administration,Male,Masters,158030.77903977592
+888,Administration,Male,Masters,59986.20424628662
+889,Engineering,Female,Masters,80647.39017759734
+890,Management,Male,PhD,112519.23275863937
+891,Administration,Female,Masters,90234.87268444094
+892,Administration,Female,High School,125830.20342115079
+893,Administration,Male,High School,88705.02977296957
+894,Administration,Female,High School,65157.979459054266
+895,Operations,Male,College,158945.60601420718
+896,Engineering,Female,Masters,53001.072048738024
+897,Administration,Female,College,116617.14149871551
+898,Engineering,Female,College,88352.22916959779
+899,Management,Male,PhD,98478.16884353072
+900,Sales,Female,College,115843.22734846141
+901,Sales,Male,Masters,96703.7119498264
+902,Management,Male,High School,134903.7228131045
+903,Management,Female,High School,98418.11704246263
+904,Management,Female,High School,65043.96631112535
+905,Operations,Male,PhD,74298.34353941248
+906,Sales,Male,Masters,55301.143157770966
+907,Operations,Male,College,63397.54082881923
+908,Sales,Male,Masters,93088.46404604835
+909,Operations,Male,College,104037.10786040733
+910,Management,Female,High School,112893.94090616703
+911,Operations,Female,Masters,65681.58236573603
+912,Administration,Male,PhD,124224.82768070805
+913,Sales,Male,High School,121079.81507357865
+914,Sales,Female,High School,75941.49065344555
+915,Engineering,Male,PhD,72216.34049701283
+916,Management,Male,PhD,120367.69944447244
+917,Operations,Male,PhD,91198.6781074362
+918,Engineering,Male,High School,118497.80708482931
+919,Sales,Female,Masters,73394.45884712008
+920,Operations,Male,Masters,81258.3663456283
+921,Sales,Male,High School,110612.80385169732
+922,Management,Female,Masters,130476.92953495939
+923,Engineering,Female,High School,119522.27718396648
+924,Sales,Male,Masters,139749.47842738163
+925,Engineering,Male,High School,55364.19142933532
+926,Sales,Male,Masters,92007.85644838936
+927,Management,Male,High School,78138.28558647029
+928,Engineering,Male,Masters,100220.84148811035
+929,Sales,Female,PhD,93796.76328395016
+930,Operations,Male,Masters,109675.08749797365
+931,Operations,Male,PhD,103806.48572416454
+932,Operations,Male,PhD,110275.25430031934
+933,Administration,Male,College,68471.62944465953
+934,Operations,Female,Masters,55864.25122119065
+935,Engineering,Male,High School,46431.68626036038
+936,Operations,Male,Masters,57321.09280813751
+937,Engineering,Male,Masters,115604.29752173922
+938,Management,Male,Masters,127348.0510761028
+939,Management,Male,Masters,153151.58472860348
+940,Administration,Male,College,63003.019096354394
+941,Administration,Male,High School,51866.326287756245
+942,Operations,Male,PhD,173540.43830318074
+943,Sales,Female,College,86361.06099855009
+944,Administration,Male,High School,93366.45925776036
+945,Administration,Female,Masters,49596.44396343426
+946,Engineering,Male,Masters,127390.7035652486
+947,Operations,Male,Masters,61708.79510700996
+948,Operations,Female,Masters,100059.06591657494
+949,Management,Male,High School,126831.84304980158
+950,Sales,Female,High School,75662.53353708595
+951,Management,Female,College,98087.3161940402
+952,Management,Male,PhD,123688.5648900415
+953,Administration,Female,High School,90600.93682524985
+954,Administration,Female,College,79494.5243343522
+955,Sales,Male,Masters,102265.20916144007
+956,Engineering,Female,High School,117756.73563890895
+957,Sales,Female,College,110506.24505304694
+958,Sales,Male,PhD,49993.03167885598
+959,Management,Male,PhD,114254.10152634038
+960,Operations,Female,College,113623.33957664891
+961,Sales,Male,College,112336.14241687725
+962,Sales,Female,College,94848.2020793133
+963,Administration,Male,Masters,113862.31555003437
+964,Management,Male,PhD,91846.83386802283
+965,Operations,Female,PhD,87639.51674235213
+966,Sales,Female,High School,47850.019752246044
+967,Operations,Female,High School,86669.90623239409
+968,Sales,Female,High School,59980.777490336266
+969,Engineering,Male,Masters,125864.09492845312
+970,Engineering,Male,PhD,53032.48886367394
+971,Management,Male,Masters,80538.14445647445
+972,Administration,Male,Masters,84312.27652173133
+973,Administration,Male,College,83693.27927796841
+974,Management,Male,College,124574.50975232424
+975,Engineering,Male,High School,106529.27410602735
+976,Engineering,Female,Masters,55182.37540790891
+977,Engineering,Female,Masters,101935.86130587729
+978,Administration,Female,High School,69109.31979498894
+979,Administration,Male,Masters,62773.88500031545
+980,Administration,Male,College,112850.36566256631
+981,Engineering,Male,High School,67124.9827353787
+982,Management,Male,High School,136896.77026091138
+983,Operations,Female,High School,67295.13217615045
+984,Engineering,Female,PhD,101060.42310614666
+985,Operations,Female,Masters,61391.083870989496
+986,Engineering,Female,College,112246.41312547197
+987,Sales,Female,College,104672.76386705387
+988,Sales,Female,High School,108426.39889708757
+989,Operations,Female,College,128152.43191323514
+990,Management,Female,College,110952.43366547208
+991,Administration,Male,College,59314.98846614439
+992,Management,Female,PhD,76241.9633934592
+993,Engineering,Female,High School,38956.56457103613
+994,Operations,Male,High School,124408.44081714914
+995,Administration,Female,Masters,92648.84536588559
+996,Management,Female,PhD,81119.8028234214
+997,Sales,Female,PhD,76289.99130915999
+998,Operations,Female,College,55134.869143246244
+999,Management,Female,Masters,98233.36079175088
