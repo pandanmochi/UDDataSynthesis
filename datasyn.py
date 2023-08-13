@@ -164,7 +164,7 @@ def get_association_errors(input_data: pd.DataFrame) -> dict:
                     print(f"check association between {column_A} and {column_B}...")
                     # perform chi-square test to determine whether there is a significant association
                     chi_square = _chi_square_result(series_A, series_B)
-                    significance_level = 0.2
+                    significance_level = 0.05
                     # measure strength of association with uncertainty coefficient
                     # in case p-value < significance level
                     if chi_square < significance_level:
@@ -204,6 +204,47 @@ def _get_max_edge(edges: dict) -> (str, str):
     return max_key, max_inner_key
 
 
+def _inverted_order_cdg(cdg: dict) -> dict:
+    inverted_cdg = {}
+
+    for n in cdg:
+        inverted_cdg[n] = []
+        for neighbor in cdg[n]["constraints"]["associations"]:
+            if neighbor not in inverted_cdg:
+                inverted_cdg[neighbor] = []
+
+            inverted_cdg[neighbor].append(n)
+
+    return inverted_cdg
+
+
+def get_udc_top_order(cdg: dict) -> dict:
+    inverted_order_cdg = _inverted_order_cdg(cdg)
+    visited = set()
+    ordering = []
+    ordered_nodes = {}
+
+    def dfs(n):
+        visited.add(n)
+
+        # check whether node has outgoing edges
+        if n in inverted_order_cdg:
+            for neighbor in inverted_order_cdg[n]:
+                if neighbor not in visited:
+                    dfs(neighbor)
+
+        ordering.append(n)
+
+    for node in inverted_order_cdg:
+        if node not in visited:
+            dfs(node)
+
+    for n in ordering[::-1]:
+        ordered_nodes[n] = cdg[n]
+
+    return ordered_nodes
+
+
 def _create_dag(graph: dict) -> ([], dict):
     new_graph = graph.copy()
     edges = dict()
@@ -227,11 +268,7 @@ def _create_dag(graph: dict) -> ([], dict):
                     if neighbor in new_graph:
                         source, target = _get_max_edge(edges)
                         # print(f"deleting new_graph[{source}][{target}]")
-                        print(f"edges: {edges}")
-                        print(f"source: {source}, target: {target}")
-                        print(f"new graph: {new_graph}")
                         if new_graph[source][target] in new_graph:
-                            print("hi")
                             del new_graph[source][target]
 
         # if node has no outgoing edges
@@ -354,7 +391,7 @@ def get_cdg(input_data: pd.DataFrame) -> dict:
 
 def _generate_num_column(min_bound: int, max_bound: int, distribution: str, params: tuple, n: int) -> np.array:
     if distribution == '':
-        return np.random.randint(min_bound, max_bound + 1, n)
+        return np.random.uniform(min_bound, max_bound, n)
     else:
         return getattr(stats, distribution).rvs(*params, size=n)
 
@@ -371,8 +408,11 @@ def add_col_dist(cdg: dict, column: str, distribution: str, params: tuple):
     # todo: check validity of the tuple matching distribution
     cdg[column]["constraints"]["column"]["params"] = params
 
+    for association in list(cdg[column]["constraints"]["associations"]):
+        del cdg[column]["constraints"]["associations"][association]
 
-def add_assoc_dist(cdg: dict, col_A: str, col_B: str, col_B_val: str, distribution: str, params: tuple):
+
+def add_assoc_dist(cdg: dict, col_A: str, col_B: str, val_B: str, distribution: str, params: tuple):
     if cdg[col_A]["type"] != "num":
         raise TypeError(f"Column {col_A} is not of type num.")
 
@@ -380,12 +420,18 @@ def add_assoc_dist(cdg: dict, col_A: str, col_B: str, col_B_val: str, distributi
         raise TypeError(f"Column {col_B} is not of type cat.")
 
     if distribution in ['norm', 'uniform', 'beta', 'expon', 'gamma']:
-        cdg[col_A]["constraints"]["associations"][col_B]["distributions"][col_B_val]["distribution"] = distribution
+        cdg[col_A]["constraints"]["associations"][col_B]["distributions"][val_B]["distribution"] = distribution
     else:
         raise ValueError("No valid distribution given. Try 'norm', 'uniform', 'beta', 'expon' or 'gamma'")
 
     # todo: check validity of the tuple matching distribution
-    cdg[col_A]["constraints"]["associations"][col_B]["distributions"][col_B_val]["params"] = params
+    cdg[col_A]["constraints"]["associations"][col_B]["distributions"][val_B]["params"] = params
+
+    for association in list(cdg[col_A]["constraints"]["associations"]):
+        if association == col_B:
+            continue
+        else:
+            del cdg[col_A]["constraints"]["associations"][association]
 
 
 def mod_col_freq_dist(cdg: dict, column: str, new_frequencies: dict):
@@ -397,6 +443,9 @@ def mod_col_freq_dist(cdg: dict, column: str, new_frequencies: dict):
 
     cdg[column]["constraints"]["column"] = new_frequencies
 
+    for association in list(cdg[column]["constraints"]["associations"]):
+        del cdg[column]["constraints"]["associations"][association]
+
 
 def mod_assoc_freq_dist(cdg: dict, col_A: str, col_B: str, val_B: str, new_frequencies: dict):
     if cdg[col_A]["type"] != "cat" and cdg[col_B]["type"] != "cat":
@@ -407,6 +456,12 @@ def mod_assoc_freq_dist(cdg: dict, col_A: str, col_B: str, val_B: str, new_frequ
 
     cdg[col_A]["constraints"]["associations"][col_B]["conditional_dist"][val_B] = new_frequencies
 
+    for association in list(cdg[col_A]["constraints"]["associations"]):
+        if association == col_B:
+            continue
+        else:
+            del cdg[col_A]["constraints"]["associations"][association]
+
 
 def delete_assoc(cdg: dict, column_A: str, column_B: str):
     if column_B in cdg[column_A]["constraints"]["associations"]:
@@ -416,7 +471,7 @@ def delete_assoc(cdg: dict, column_A: str, column_B: str):
 
 
 def _get_min_edge(association_constraints: dict) -> str:
-    min_inf_error = 1.0
+    min_inf_error = 1.1
     incoming_node = ''
     for association in association_constraints:
         inf_error = association_constraints[association]["inf_error"]
@@ -485,13 +540,12 @@ def generate_data(cdg: dict, n: int) -> pd.DataFrame:
 
         # case 3: multiple incoming edges
         else:
-            if col_type == "cat":
-                # randomly choose the incoming node
-                incoming_node = random.choice(list(association_constraints.keys()))
+            incoming_node = _get_min_edge(association_constraints)
 
-                if incoming_node in gen_data:
-                    column_data = []
+            if incoming_node in gen_data:
+                column_data = []
 
+                if col_type == "cat":
                     for source_value in gen_data[incoming_node]:
                         conditional_dist = association_constraints[incoming_node]["conditional_dist"][source_value]
                         target_values = list(conditional_dist.keys())
@@ -499,12 +553,8 @@ def generate_data(cdg: dict, n: int) -> pd.DataFrame:
                         column_data.append(np.random.choice(target_values, p=target_p))
 
                     gen_data[column] = column_data
-            else:
-                incoming_node = _get_min_edge(association_constraints)
 
-                if incoming_node in gen_data:
-                    column_data = []
-
+                else:
                     for source_value in gen_data[incoming_node]:
                         source_value_dist = association_constraints[incoming_node]["distributions"][source_value]
                         distribution = source_value_dist["distribution"]
@@ -516,6 +566,7 @@ def generate_data(cdg: dict, n: int) -> pd.DataFrame:
                             column_data.append(np.random.uniform(min_bound, max_bound))
                         else:
                             column_data.append(getattr(stats, distribution).rvs(*params))
+                            data = stats.gamma.rvs()
 
                     gen_data[column] = column_data
 

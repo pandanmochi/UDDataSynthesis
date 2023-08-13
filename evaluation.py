@@ -37,10 +37,6 @@ if __name__ == '__main__':
     iris_quality_report = evaluate_quality(iris_data, iris_syn, iris_meta)
     iris_diagnostic = run_diagnostic(iris_data, iris_syn, iris_meta)
 
-    # print("Adult report:")
-    # adult_quality_report = evaluate_quality(adult_data, adult_syn, adult_meta)
-    # adult_diagnostic = run_diagnostic(adult_data, adult_syn, adult_meta)
-
     print("Mushroom report:")
     mushroom_quality_report = evaluate_quality(mushroom_data, mushroom_syn, mushroom_meta)
     mushroom_diagnostic = run_diagnostic(mushroom_data, mushroom_syn, mushroom_meta)
@@ -48,3 +44,7 @@ if __name__ == '__main__':
     print("Salary report:")
     salary_quality_report = evaluate_quality(salary_data, salary_syn, salary_meta)
     salary_diagnostic = run_diagnostic(salary_data, salary_syn, salary_meta)
+
+    print("Adult report:")
+    adult_quality_report = evaluate_quality(adult_data, adult_syn, adult_meta)
+    adult_diagnostic = run_diagnostic(adult_data, adult_syn, adult_meta)
