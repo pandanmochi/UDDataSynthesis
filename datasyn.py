@@ -3,7 +3,6 @@ import numpy as np
 import math
 from scipy import stats
 import warnings
-import random
 
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 
@@ -566,7 +565,6 @@ def generate_data(cdg: dict, n: int) -> pd.DataFrame:
                             column_data.append(np.random.uniform(min_bound, max_bound))
                         else:
                             column_data.append(getattr(stats, distribution).rvs(*params))
-                            data = stats.gamma.rvs()
 
                     gen_data[column] = column_data
 
