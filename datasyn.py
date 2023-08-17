@@ -502,9 +502,13 @@ def generate_data(cdg: dict, n: int) -> pd.DataFrame:
                 params = column_constraints["params"]
                 gen_data[column] = _generate_num_column(min_bound, max_bound, distribution, params, n)
 
-        # case 2: one incoming edge
-        elif len(association_constraints) == 1:
-            incoming_node = list(association_constraints.keys())[0]
+        else:
+            # case 2: one incoming edge
+            if len(association_constraints) == 1:
+                incoming_node = list(association_constraints.keys())[0]
+            # case 3: multiple incoming edges
+            else:
+                incoming_node = _get_min_edge(association_constraints)
 
             if incoming_node in gen_data:
                 column_data = []
@@ -536,37 +540,6 @@ def generate_data(cdg: dict, n: int) -> pd.DataFrame:
 
             else:
                 raise KeyError(f"column {incoming_node} has not been generated yet")
-
-        # case 3: multiple incoming edges
-        else:
-            incoming_node = _get_min_edge(association_constraints)
-
-            if incoming_node in gen_data:
-                column_data = []
-
-                if col_type == "cat":
-                    for source_value in gen_data[incoming_node]:
-                        conditional_dist = association_constraints[incoming_node]["conditional_dist"][source_value]
-                        target_values = list(conditional_dist.keys())
-                        target_p = list(conditional_dist.values())
-                        column_data.append(np.random.choice(target_values, p=target_p))
-
-                    gen_data[column] = column_data
-
-                else:
-                    for source_value in gen_data[incoming_node]:
-                        source_value_dist = association_constraints[incoming_node]["distributions"][source_value]
-                        distribution = source_value_dist["distribution"]
-                        params = source_value_dist["params"]
-                        min_bound = association_constraints[incoming_node]["min-max"][source_value]["min"]
-                        max_bound = association_constraints[incoming_node]["min-max"][source_value]["max"]
-
-                        if distribution == '':
-                            column_data.append(np.random.uniform(min_bound, max_bound))
-                        else:
-                            column_data.append(getattr(stats, distribution).rvs(*params))
-
-                    gen_data[column] = column_data
 
     return pd.DataFrame(gen_data)
 
